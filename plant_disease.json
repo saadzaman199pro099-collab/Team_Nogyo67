@@ -1,0 +1,3128 @@
+[
+  {
+    "name": "Apple___Apple_scab",
+    "scientific_name": "Venturia inaequalis",
+    "category": "Apple disease",
+    "pathogen_type": "Fungal disease (Ascomycete fungus)",
+    "cause": "Apple scab is caused by Venturia inaequalis. The fungus survives in fallen infected leaves and releases spores during wet spring conditions.",
+    "spread": "Spores spread through wind and rain splash, infecting leaves, flowers, and developing fruit.",
+    "environment": "Cool temperatures (10-24°C), high humidity, rainfall, and long leaf wetness periods increase disease risk.",
+    "symptoms": [
+      "Olive-green circular spots on leaves",
+      "Dark scabby patches on fruit",
+      "Leaf yellowing and premature dropping",
+      "Fruit cracking and deformation"
+    ],
+
+    "treatment": {
+
+      "severity_levels": {
+        "early": "Small leaf spots detected. Immediate protective fungicide application can stop further spread.",
+        "medium": "Multiple infected leaves and fruit lesions present. Repeated fungicide protection is required.",
+        "severe": "Heavy defoliation or fruit infection. Remove infected material and combine sanitation with chemical control."
+      },
+
+
+      "immediate_action": [
+        "Remove infected leaves and damaged fruit immediately.",
+        "Collect fallen leaves because they contain overwintering fungal spores.",
+        "Avoid moving infected plant material near healthy trees."
+      ],
+
+
+      "cultural_control": [
+        "Remove fallen leaves before spring to reduce fungal spores.",
+        "Prune dense branches to improve airflow.",
+        "Avoid overhead irrigation that keeps leaves wet.",
+        "Maintain balanced nitrogen fertilizer application."
+      ],
+
+
+      "chemical_control": {
+
+        "products": [
+          "Mancozeb 75% WP",
+          "Captan 50% WP",
+          "Myclobutanil 10% WP",
+          "Difenoconazole-based fungicides"
+        ],
+
+        "active_ingredients": [
+          "Mancozeb",
+          "Captan",
+          "Myclobutanil",
+          "Difenoconazole"
+        ],
+
+        "dosage": [
+          "Mancozeb 75% WP: 2-3 grams per liter of water.",
+          "Captan 50% WP: 2 grams per liter of water.",
+          "Myclobutanil: Follow manufacturer recommended dose."
+        ],
+
+        "application_method": [
+          "Spray both upper and lower leaf surfaces until evenly covered.",
+          "Use a fine mist sprayer for better leaf coverage."
+        ],
+
+        "frequency": [
+          "Apply every 7-10 days during high-risk weather.",
+          "Reduce spraying during dry conditions."
+        ],
+
+        "best_time": [
+          "Early morning or late afternoon.",
+          "Apply before rainfall events when infection risk is high."
+        ],
+
+        "expected_impact": [
+          "Early treatment can reduce disease development by 70-90%.",
+          "Protects new leaves and reduces fruit damage."
+        ]
+      },
+
+
+      "biological_control": [
+        "Use Bacillus subtilis-based biological fungicides where available.",
+        "Maintain healthy soil microbial activity."
+      ],
+
+
+      "prevention": [
+        "Plant scab-resistant apple varieties.",
+        "Maintain orchard cleanliness throughout the year."
+      ],
+
+
+      "estimated_recovery_time": "2-4 weeks depending on infection severity"
+    }
+  },
+
+
+
+  {
+    "name": "Apple___Black_rot",
+    "scientific_name": "Botryosphaeria obtusa (Diplodia seriata)",
+    "category": "Apple disease",
+    "pathogen_type": "Fungal disease",
+
+    "cause": "Black rot is caused by Diplodia seriata. The fungus infects fruit, leaves, and branches through wounds and damaged tissues.",
+
+    "spread": "Spores spread through rain splash, wind, insects, and infected plant debris.",
+
+    "environment": "Warm humid conditions, tree wounds, drought stress, and poor sanitation increase disease development.",
+
+
+    "symptoms": [
+      "Dark circular fruit lesions",
+      "Fruit mummification",
+      "Branch cankers",
+      "Leaf spots"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "early": "Small lesions detected. Remove infected tissues and begin fungicide protection.",
+        "medium": "Multiple fruits affected. Combine sanitation and repeated fungicide applications.",
+        "severe": "Large branch infections require pruning and removal of infected wood."
+      },
+
+
+      "immediate_action": [
+        "Remove rotten fruit from trees and ground.",
+        "Cut infected branches at least several centimeters below visible damage.",
+        "Disinfect pruning tools after infected cuts."
+      ],
+
+
+      "cultural_control": [
+        "Remove mummified fruit after harvest.",
+        "Avoid injuries to bark and branches.",
+        "Maintain proper irrigation to prevent plant stress."
+      ],
+
+
+      "chemical_control": {
+
+
+        "products": [
+          "Captan 50% WP",
+          "Thiophanate-methyl 70% WP",
+          "Mancozeb 75% WP"
+        ],
+
+
+        "active_ingredients": [
+          "Captan",
+          "Thiophanate-methyl",
+          "Mancozeb"
+        ],
+
+
+        "dosage": [
+          "Captan 50% WP: 2 grams per liter of water.",
+          "Mancozeb 75% WP: 2-3 grams per liter of water.",
+          "Thiophanate-methyl: Follow product label dosage."
+        ],
+
+
+        "application_method": [
+          "Spray entire canopy including fruit surfaces.",
+          "Cover pruning wounds with recommended protective treatment."
+        ],
+
+
+        "frequency": [
+          "Repeat every 10-14 days during disease pressure."
+        ],
+
+
+        "best_time": [
+          "Apply after pruning injuries occur.",
+          "Begin preventive spraying before fruit infection periods."
+        ],
+
+
+        "expected_impact": [
+          "Can significantly reduce new infections when applied early.",
+          "Protects healthy fruit and branches."
+        ]
+
+      },
+
+
+      "biological_control": [
+        "Use Trichoderma-based biological products where available.",
+        "Encourage beneficial microorganisms in soil."
+      ],
+
+
+      "prevention": [
+        "Remove infected plant debris.",
+        "Maintain healthy tree nutrition.",
+        "Use resistant varieties where possible."
+      ],
+
+
+      "estimated_recovery_time": "3-6 weeks depending on damage"
+    }
+  },
+
+  {
+    "name": "Apple___Cedar_apple_rust",
+    "scientific_name": "Gymnosporangium juniperi-virginianae",
+    "category": "Apple disease",
+    "pathogen_type": "Fungal rust disease",
+
+    "cause": "Cedar apple rust is caused by Gymnosporangium juniperi-virginianae. The fungus requires both apple trees and juniper plants to complete its life cycle.",
+
+    "spread": "Spores travel through wind from infected juniper hosts to apple trees during spring.",
+
+    "environment": "Humid spring weather, temperatures between 10-27°C, and nearby infected juniper plants increase risk.",
+
+
+    "symptoms": [
+      "Yellow-orange spots on leaves",
+      "Orange fungal growth under leaves",
+      "Premature leaf drop",
+      "Fruit lesions"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "early": "Few orange spots visible. Preventive fungicide can stop progression.",
+        "medium": "Multiple infected leaves. Regular fungicide protection is required.",
+        "severe": "Heavy leaf infection causing defoliation. Combine sanitation and chemical control."
+      },
+
+
+      "immediate_action": [
+        "Remove severely infected leaves.",
+        "Inspect nearby juniper plants for rust symptoms.",
+        "Reduce plant stress through proper irrigation."
+      ],
+
+
+      "cultural_control": [
+        "Avoid planting susceptible apple varieties near infected junipers.",
+        "Improve airflow through pruning.",
+        "Maintain proper tree spacing."
+      ],
+
+
+      "chemical_control": {
+
+        "products": [
+          "Myclobutanil 20% EC",
+          "Propiconazole-based fungicides",
+          "Difenoconazole fungicides"
+        ],
+
+        "active_ingredients": [
+          "Myclobutanil",
+          "Propiconazole",
+          "Difenoconazole"
+        ],
+
+        "dosage": [
+          "Myclobutanil: Follow product label concentration.",
+          "General foliar spray: approximately 1-2 ml fungicide per liter of water depending on formulation."
+        ],
+
+        "application_method": [
+          "Spray complete tree canopy.",
+          "Ensure coverage of upper and lower leaf surfaces."
+        ],
+
+        "frequency": [
+          "Apply every 10-14 days during infection periods."
+        ],
+
+        "best_time": [
+          "Begin spraying before spring infection.",
+          "Apply before prolonged wet weather."
+        ],
+
+        "expected_impact": [
+          "Early protection can reduce infection by 80-90%.",
+          "Protects new leaf growth and reduces fruit damage."
+        ]
+
+      },
+
+
+      "biological_control": [
+        "Maintain beneficial fungal and bacterial populations in soil.",
+        "Use approved biological fungicides where available."
+      ],
+
+
+      "prevention": [
+        "Plant resistant apple varieties.",
+        "Monitor trees during spring rainfall periods."
+      ],
+
+
+      "estimated_recovery_time": "3-5 weeks depending on severity"
+
+    }
+  },
+
+
+
+  {
+    "name": "Apple___healthy",
+    "scientific_name": "Not applicable",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+
+    "cause": "No disease detected. Apple plant shows normal healthy growth.",
+
+    "spread": "No disease transmission occurs.",
+
+    "environment": "Healthy growth requires balanced nutrients, sunlight, proper irrigation, and good soil conditions.",
+
+
+    "symptoms": [
+      "Green healthy leaves",
+      "Normal fruit development",
+      "No visible lesions"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "healthy": "Plant is currently healthy.",
+        "monitoring": "Continue regular inspection.",
+        "risk": "Maintain preventive farming practices."
+      },
+
+
+      "immediate_action": [
+        "Continue monitoring plant health."
+      ],
+
+
+      "cultural_control": [
+        "Maintain proper irrigation.",
+        "Apply balanced fertilizer based on soil requirements.",
+        "Remove dead plant material."
+      ],
+
+
+      "chemical_control": {
+
+        "products": [
+          "No pesticide required"
+        ],
+
+        "active_ingredients": [],
+
+        "dosage": [
+          "No chemical application needed."
+        ],
+
+        "application_method": [
+          "Maintain normal crop management."
+        ],
+
+        "frequency": [
+          "No spraying required."
+        ],
+
+        "best_time": [
+          "Only apply treatments if disease symptoms appear."
+        ],
+
+        "expected_impact": [
+          "Healthy growth maintained."
+        ]
+      },
+
+
+      "biological_control": [
+        "Maintain beneficial soil microorganisms.",
+        "Use compost or organic matter when required."
+      ],
+
+
+      "prevention": [
+        "Regular disease inspection.",
+        "Maintain balanced plant nutrition."
+      ],
+
+
+      "estimated_recovery_time": "Not applicable"
+
+    }
+  },
+  
+
+  {
+    "name": "Background_without_leaves",
+    "scientific_name": "Not applicable",
+    "category": "No plant detected",
+    "pathogen_type": "None",
+    "cause": "The uploaded image does not contain a recognizable plant leaf.",
+    "spread": "Not applicable.",
+    "environment": "Not applicable.",
+    "symptoms": [
+      "No identifiable plant leaf detected"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Not applicable",
+        "medium": "Not applicable",
+        "severe": "Not applicable"
+      },
+      "immediate_action": [
+        "Upload a clear image containing a single plant leaf."
+      ],
+      "cultural_control": [],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": []
+      },
+      "biological_control": [],
+      "prevention": [
+        "Capture the leaf in good lighting with a plain background.",
+        "Ensure only one leaf is visible in the image.",
+        "Avoid blurry or dark photographs."
+      ],
+      "estimated_recovery_time": "Not applicable"
+    }
+  },
+
+
+
+  {
+    "name": "Blueberry___healthy",
+    "scientific_name": "Not applicable",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+
+    "cause": "No disease detected. Blueberry plant appears healthy.",
+
+    "spread": "No disease transmission occurs.",
+
+    "environment": "Blueberries require acidic soil, moisture control, sunlight, and balanced nutrients.",
+
+
+    "symptoms": [
+      "Healthy green foliage",
+      "Normal berry production",
+      "No disease signs"
+    ],
+
+
+    "treatment": {
+
+      "severity_levels": {
+        "healthy": "Plant condition is optimal.",
+        "monitoring": "Continue observation.",
+        "risk": "Maintain soil and nutrient management."
+      },
+
+
+      "immediate_action": [
+        "Continue regular monitoring."
+      ],
+
+
+      "cultural_control": [
+        "Maintain soil pH around 4.5-5.5.",
+        "Provide adequate irrigation.",
+        "Remove damaged leaves."
+      ],
+
+
+      "chemical_control": {
+
+        "products": [
+          "No chemical treatment required"
+        ],
+
+        "active_ingredients": [],
+
+        "dosage": [
+          "No pesticide application required."
+        ],
+
+        "application_method": [
+          "Maintain normal cultivation practices."
+        ],
+
+        "frequency": [
+          "No spraying required."
+        ],
+
+        "best_time": [
+          "Only treat if disease appears."
+        ],
+
+        "expected_impact": [
+          "Maintains healthy plant development."
+        ]
+      },
+
+
+      "biological_control": [
+        "Maintain beneficial soil organisms."
+      ],
+
+
+      "prevention": [
+        "Monitor regularly.",
+        "Maintain acidic soil conditions."
+      ],
+
+
+      "estimated_recovery_time": "Not applicable"
+
+    }
+  },
+
+  {
+    "name": "Cherry___Powdery_mildew",
+    "scientific_name": "Podosphaera clandestina",
+    "category": "Cherry disease",
+    "pathogen_type": "Fungal disease (Powdery mildew fungus)",
+    "cause": "Cherry powdery mildew is caused by the fungus Podosphaera clandestina. The fungus survives on infected buds and plant debris and produces spores that infect young leaves, shoots, flowers, and fruits.",
+    "spread": "Spores are spread by wind over long distances. Infection increases rapidly under humid conditions and dense canopies.",
+    "environment": "Temperature: 18–27°C, Relative humidity: 60–90%, poor air circulation, shaded orchards, excessive nitrogen fertilization.",
+    "symptoms": [
+      "White powdery fungal growth on leaves",
+      "Leaf curling and distortion",
+      "Young shoots become stunted",
+      "Flowers may fail to develop properly",
+      "Reduced fruit size and quality"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small white patches appear on a few young leaves.",
+        "medium": "Powder covers multiple leaves and young shoots.",
+        "severe": "Most foliage infected, heavy defoliation and poor fruit development."
+      },
+      "immediate_action": [
+        "Remove infected shoots and leaves immediately.",
+        "Destroy infected plant material away from the orchard.",
+        "Disinfect pruning tools with 70% alcohol or 10% bleach solution."
+      ],
+      "cultural_control": [
+        "Prune trees to improve air circulation.",
+        "Avoid excessive nitrogen fertilizer.",
+        "Keep orchard free of weeds.",
+        "Maintain 4–5 m spacing between trees."
+      ],
+      "chemical_control": {
+        "products": [
+          "Wettable Sulfur 80 WP",
+          "Myclobutanil 10 EC",
+          "Hexaconazole 5 EC"
+        ],
+        "active_ingredients": [
+          "Sulfur",
+          "Myclobutanil",
+          "Hexaconazole"
+        ],
+        "dosage": [
+          "Sulfur 80 WP: 2.5–3 g/L water",
+          "Myclobutanil 10 EC: 0.5 ml/L water",
+          "Hexaconazole 5 EC: 1 ml/L water"
+        ],
+        "application_method": [
+          "Spray both upper and lower leaf surfaces thoroughly.",
+          "Ensure complete canopy coverage."
+        ],
+        "frequency": [
+          "Repeat every 10–14 days if symptoms continue.",
+          "Maximum 3–4 sprays per season."
+        ],
+        "best_time": [
+          "Early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Do not spray before rain."
+        ],
+        "expected_impact": [
+          "Disease progression slows within 5–7 days.",
+          "Visible reduction in fungal growth after 2 applications.",
+          "Over 85% control when treated early."
+        ]
+      },
+      "biological_control": [
+        "Spray Bacillus subtilis formulations every 7–10 days.",
+        "Apply Trichoderma-based biofungicides to improve soil health."
+      ],
+      "prevention": [
+        "Plant resistant cultivars where available.",
+        "Prune trees annually.",
+        "Avoid overcrowding.",
+        "Inspect orchard weekly during humid weather."
+      ],
+      "estimated_recovery_time": "2–4 weeks if detected early and treated promptly."
+    }
+  },
+  {
+    "name": "Cherry___healthy",
+    "scientific_name": "Prunus avium / Prunus cerasus",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The cherry plant appears healthy with normal physiological growth.",
+    "spread": "No disease transmission.",
+    "environment": "Healthy growth occurs at 18–28°C in fertile, well-drained soil with adequate sunlight and balanced irrigation.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal shoot growth",
+      "Healthy flowers and fruits",
+      "No visible lesions or discoloration",
+      "Normal canopy development"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy",
+        "medium": "Healthy",
+        "severe": "Healthy"
+      },
+      "immediate_action": [
+        "No treatment required.",
+        "Continue routine monitoring."
+      ],
+      "cultural_control": [
+        "Water regularly but avoid waterlogging.",
+        "Prune dead branches annually.",
+        "Maintain orchard sanitation.",
+        "Apply mulch around the root zone."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No chemical treatment required."
+        ]
+      },
+      "biological_control": [
+        "Maintain healthy soil microorganisms.",
+        "Apply compost annually to improve microbial diversity."
+      ],
+      "prevention": [
+        "Inspect plants weekly.",
+        "Use balanced NPK fertilizer according to soil test.",
+        "Avoid mechanical injuries.",
+        "Maintain proper pruning and spacing."
+      ],
+      "estimated_recovery_time": "Not applicable (plant is healthy)."
+    }
+  },
+
+  {
+    "name": "Corn___Cercospora_leaf_spot Gray_leaf_spot",
+    "scientific_name": "Cercospora zeae-maydis",
+    "category": "Corn disease",
+    "pathogen_type": "Fungal disease",
+
+    "cause": "Gray leaf spot is caused by Cercospora zeae-maydis. The fungus survives in infected crop residue and infects new plants during humid conditions.",
+
+    "spread": "Spores spread through wind and rain splash from infected leaves and crop debris.",
+
+    "environment": "Warm temperatures (20-30°C), high humidity, dense crop canopy, and continuous corn cultivation increase disease risk.",
+
+
+    "symptoms": [
+      "Long rectangular gray lesions between leaf veins",
+      "Leaf yellowing",
+      "Premature leaf death",
+      "Reduced grain production"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "early": "Small lesions detected. Early fungicide protection can prevent rapid spread.",
+        "medium": "Multiple leaves affected. Fungicide and crop management required.",
+        "severe": "Large leaf damage causing yield loss. Focus on disease reduction and next-season prevention."
+      },
+
+
+      "immediate_action": [
+        "Remove heavily infected crop debris.",
+        "Monitor surrounding plants for new symptoms.",
+        "Avoid excessive irrigation."
+      ],
+
+
+      "cultural_control": [
+        "Practice crop rotation with non-corn crops.",
+        "Use proper plant spacing.",
+        "Destroy infected residue after harvest.",
+        "Maintain balanced nitrogen application."
+      ],
+
+
+      "chemical_control": {
+
+
+        "products": [
+          "Azoxystrobin 23% SC",
+          "Propiconazole 25% EC",
+          "Pyraclostrobin + Epoxiconazole mixtures"
+        ],
+
+
+        "active_ingredients": [
+          "Azoxystrobin",
+          "Propiconazole",
+          "Pyraclostrobin"
+        ],
+
+
+        "dosage": [
+          "Azoxystrobin 23% SC: approximately 1 ml per liter of water.",
+          "Propiconazole: follow product label recommendation."
+        ],
+
+
+        "application_method": [
+          "Apply as foliar spray covering upper leaf surfaces.",
+          "Target lower canopy where infection begins."
+        ],
+
+
+        "frequency": [
+          "Repeat after 14-21 days if disease pressure continues."
+        ],
+
+
+        "best_time": [
+          "Apply before severe infection.",
+          "Best during early disease development."
+        ],
+
+
+        "expected_impact": [
+          "Can reduce disease progression by 60-85%.",
+          "Helps maintain green leaf area and grain filling."
+        ]
+
+      },
+
+
+      "biological_control": [
+        "Use Trichoderma-based products where available.",
+        "Maintain healthy soil biology."
+      ],
+
+
+      "prevention": [
+        "Use resistant corn hybrids.",
+        "Avoid continuous corn cultivation."
+      ],
+
+
+      "estimated_recovery_time": "3-5 weeks depending on infection level"
+
+    }
+  },
+
+
+
+  {
+    "name": "Corn___Common_rust",
+    "scientific_name": "Puccinia sorghi",
+    "category": "Corn disease",
+    "pathogen_type": "Fungal rust disease",
+
+
+    "cause": "Common rust is caused by Puccinia sorghi, producing rust-colored spores on corn leaves.",
+
+    "spread": "Wind carries spores between fields.",
+
+    "environment": "Cool humid conditions (16-25°C) increase disease development.",
+
+
+    "symptoms": [
+      "Small reddish-brown pustules",
+      "Yellowing leaves",
+      "Reduced photosynthesis",
+      "Early leaf aging"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "early": "Rust spots appear but plant remains productive.",
+        "medium": "Many leaves affected and photosynthesis reduced.",
+        "severe": "Large-scale infection threatens yield."
+      },
+
+
+      "immediate_action": [
+        "Inspect entire field.",
+        "Remove severely damaged plants if possible."
+      ],
+
+
+      "cultural_control": [
+        "Plant resistant hybrids.",
+        "Maintain good plant nutrition.",
+        "Avoid excessive plant density."
+      ],
+
+
+      "chemical_control": {
+
+
+        "products": [
+          "Tebuconazole 25% EC",
+          "Propiconazole fungicides",
+          "Azoxystrobin combinations"
+        ],
+
+
+        "active_ingredients": [
+          "Tebuconazole",
+          "Propiconazole",
+          "Azoxystrobin"
+        ],
+
+
+        "dosage": [
+          "Tebuconazole: approximately 1 ml per liter water depending on formulation."
+        ],
+
+
+        "application_method": [
+          "Apply evenly to infected leaves."
+        ],
+
+
+        "frequency": [
+          "Repeat after 14 days if infection continues."
+        ],
+
+
+        "best_time": [
+          "Apply at first rust appearance."
+        ],
+
+
+        "expected_impact": [
+          "Can reduce rust severity significantly and protect yield."
+        ]
+
+      },
+
+
+      "biological_control": [
+        "Maintain healthy soil microorganisms."
+      ],
+
+
+      "prevention": [
+        "Use rust-resistant varieties.",
+        "Monitor crops during cool humid periods."
+      ],
+
+
+      "estimated_recovery_time": "2-4 weeks"
+
+    }
+  },
+
+
+  {
+    "name": "Corn___Northern_Leaf_Blight",
+    "scientific_name": "Exserohilum turcicum (Syn. Setosphaeria turcica)",
+    "category": "Corn disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Northern Leaf Blight is caused by the fungus Exserohilum turcicum. The fungus survives on infected crop residue and produces spores that infect corn leaves under favorable environmental conditions.",
+    "spread": "The disease spreads through wind-borne spores, rain splash, infected crop debris, and continuous corn cultivation.",
+    "environment": "Favored by temperatures of 18–27°C, relative humidity above 90%, prolonged leaf wetness (6–18 hours), cloudy weather, and dense crop canopies.",
+    "symptoms": [
+      "Long cigar-shaped gray-green lesions on leaves",
+      "Lesions gradually turn tan or brown",
+      "Premature drying of leaves",
+      "Reduced photosynthesis",
+      "Poor grain filling and lower yield"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "One or two elongated lesions appear on lower leaves.",
+        "medium": "Multiple lesions spread across middle leaves, reducing green leaf area.",
+        "severe": "Large portions of foliage become blighted, significantly reducing grain yield."
+      },
+      "immediate_action": [
+        "Identify infected plants as early as possible.",
+        "Remove severely infected leaves if infection is localized.",
+        "Avoid overhead irrigation during humid weather.",
+        "Monitor nearby plants for new infections."
+      ],
+      "cultural_control": [
+        "Practice crop rotation with non-host crops for at least one season.",
+        "Destroy or deeply incorporate infected crop residues after harvest.",
+        "Use resistant or tolerant corn hybrids.",
+        "Maintain recommended plant spacing for better airflow.",
+        "Avoid excessive nitrogen fertilization."
+      ],
+      "chemical_control": {
+        "products": [
+          "Propiconazole 25 EC",
+          "Azoxystrobin 250 SC",
+          "Pyraclostrobin + Epoxiconazole",
+          "Mancozeb 75 WP (preventive)"
+        ],
+        "active_ingredients": [
+          "Propiconazole",
+          "Azoxystrobin",
+          "Pyraclostrobin",
+          "Epoxiconazole",
+          "Mancozeb"
+        ],
+        "dosage": [
+          "Propiconazole 25 EC: 1 ml/L water",
+          "Azoxystrobin 250 SC: 1 ml/L water",
+          "Pyraclostrobin + Epoxiconazole: Follow manufacturer label (typically 0.8–1 ml/L)",
+          "Mancozeb 75 WP: 2–2.5 g/L water"
+        ],
+        "application_method": [
+          "Spray both upper and lower leaf surfaces evenly.",
+          "Ensure complete canopy coverage.",
+          "Use approximately 500–700 L of spray solution per hectare."
+        ],
+        "frequency": [
+          "Repeat every 10–14 days if weather remains favorable.",
+          "Maximum 2–3 fungicide applications per season."
+        ],
+        "best_time": [
+          "Spray early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Avoid spraying before rainfall or during strong winds."
+        ],
+        "expected_impact": [
+          "Disease progression slows within 5–7 days.",
+          "New healthy leaf growth becomes visible within 10–14 days.",
+          "Up to 80–90% disease suppression when treated early."
+        ]
+      },
+      "biological_control": [
+        "Apply Trichoderma harzianum around the root zone.",
+        "Use Bacillus subtilis biofungicide as a preventive spray.",
+        "Improve soil microbial diversity with well-decomposed compost."
+      ],
+      "prevention": [
+        "Plant resistant hybrids.",
+        "Rotate crops every season.",
+        "Remove infected crop residues after harvest.",
+        "Avoid continuous maize cultivation in the same field.",
+        "Scout fields weekly during humid weather.",
+        "Maintain balanced fertilization based on soil tests."
+      ],
+      "estimated_recovery_time": "2–4 weeks if detected early and treated promptly. Severely damaged leaves will not recover, but new healthy leaves can develop."
+    }
+  },
+
+  {
+    "name": "Corn___healthy",
+    "scientific_name": "Zea mays",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The corn plant appears healthy with normal growth, proper leaf coloration, and no visible signs of fungal, bacterial, viral, or pest infection.",
+    "spread": "Not applicable.",
+    "environment": "Healthy growth occurs under temperatures of 20–32°C with full sunlight, well-drained fertile soil (pH 5.8–7.0), adequate moisture, and balanced nutrient availability.",
+    "symptoms": [
+      "Bright green healthy leaves",
+      "Strong upright stalk",
+      "Normal tassel and silk development",
+      "No spots, lesions, or discoloration",
+      "Uniform plant growth",
+      "Healthy ear development"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy",
+        "medium": "Healthy",
+        "severe": "Healthy"
+      },
+      "immediate_action": [
+        "No treatment is required.",
+        "Continue routine field monitoring.",
+        "Inspect plants weekly for early disease symptoms."
+      ],
+      "cultural_control": [
+        "Maintain recommended irrigation without waterlogging.",
+        "Control weeds to reduce competition.",
+        "Apply fertilizers according to soil test recommendations.",
+        "Maintain proper plant spacing for airflow.",
+        "Remove volunteer maize plants after harvest."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide or pesticide is required while the plant remains healthy."
+        ]
+      },
+      "biological_control": [
+        "Maintain healthy soil microorganisms using compost or organic matter.",
+        "Apply beneficial microbes such as Trichoderma spp. if desired for preventive soil health."
+      ],
+      "prevention": [
+        "Use certified high-quality seeds.",
+        "Rotate crops every season.",
+        "Maintain balanced NPK fertilization.",
+        "Scout fields once every 7 days.",
+        "Control insect pests before they become severe.",
+        "Avoid excessive nitrogen application.",
+        "Maintain good field sanitation after harvest."
+      ],
+      "estimated_recovery_time": "Not applicable (plant is healthy)."
+    }
+  },
+
+  {
+    "name": "Grape___Black_rot",
+    "scientific_name": "Guignardia bidwellii (Phyllosticta ampelicida)",
+    "category": "Grape disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Black rot is caused by the fungus Guignardia bidwellii. The pathogen survives in infected berries, tendrils, leaves, and canes left in the vineyard. During warm, wet weather it releases spores that infect new grape tissues.",
+    "spread": "The disease spreads through rain splash, wind-blown spores, infected pruning debris, and contaminated plant material.",
+    "environment": "Favored by temperatures between 24–30°C, relative humidity above 85%, prolonged rainfall, leaf wetness for more than 6 hours, and dense vine canopies.",
+    "symptoms": [
+      "Small reddish-brown circular leaf spots",
+      "Black dots (pycnidia) develop inside lesions",
+      "Brown sunken lesions on shoots",
+      "Young berries become brown and shrivel",
+      "Black hard mummified grapes remain attached to vines",
+      "Reduced fruit quality and yield"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small reddish-brown spots appear on leaves with tiny black fruiting bodies.",
+        "medium": "Leaf lesions increase, young berries begin turning brown and shriveling.",
+        "severe": "Large portions of the vineyard become infected, berries mummify, and significant yield loss occurs."
+      },
+      "immediate_action": [
+        "Remove infected leaves, shoots, and mummified berries immediately.",
+        "Collect fallen infected debris from the vineyard floor.",
+        "Disinfect pruning tools after working on infected vines.",
+        "Inspect nearby vines for early symptoms."
+      ],
+      "cultural_control": [
+        "Prune vines to improve air circulation.",
+        "Maintain recommended vine spacing.",
+        "Remove overwintering mummified fruits every season.",
+        "Avoid overhead irrigation.",
+        "Practice annual vineyard sanitation.",
+        "Rotate fungicide groups to prevent resistance."
+      ],
+      "chemical_control": {
+        "products": [
+          "Mancozeb 75 WP",
+          "Captan 50 WP",
+          "Myclobutanil 10 WP",
+          "Azoxystrobin 250 SC",
+          "Tebuconazole 25 EC"
+        ],
+        "active_ingredients": [
+          "Mancozeb",
+          "Captan",
+          "Myclobutanil",
+          "Azoxystrobin",
+          "Tebuconazole"
+        ],
+        "dosage": [
+          "Mancozeb 75 WP: 2–2.5 g/L water",
+          "Captan 50 WP: 2.5–3 g/L water",
+          "Myclobutanil 10 WP: 0.5–1 g/L water",
+          "Azoxystrobin 250 SC: 0.8–1 ml/L water",
+          "Tebuconazole 25 EC: 1 ml/L water"
+        ],
+        "application_method": [
+          "Spray the entire vine including both upper and lower leaf surfaces.",
+          "Cover fruit clusters thoroughly.",
+          "Use approximately 700–1000 L of spray solution per hectare."
+        ],
+        "frequency": [
+          "Repeat every 7–10 days during rainy periods.",
+          "Repeat every 10–14 days under moderate disease pressure.",
+          "Do not exceed label recommendations."
+        ],
+        "best_time": [
+          "Spray early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Avoid spraying before heavy rainfall or during strong winds."
+        ],
+        "expected_impact": [
+          "New infections are greatly reduced within one week.",
+          "Disease spread slows within 5–7 days.",
+          "Up to 90% disease control when treatment begins early."
+        ]
+      },
+      "biological_control": [
+        "Apply Trichoderma harzianum around the root zone.",
+        "Use Bacillus subtilis biofungicide as a preventive foliar spray.",
+        "Increase soil organic matter to support beneficial microorganisms."
+      ],
+      "prevention": [
+        "Plant disease-free certified grape vines.",
+        "Remove mummified berries after every harvest.",
+        "Maintain proper pruning every season.",
+        "Inspect vineyards weekly during humid weather.",
+        "Ensure good sunlight penetration into the canopy.",
+        "Use preventive fungicide sprays before prolonged rainy periods."
+      ],
+      "estimated_recovery_time": "Approximately 2–5 weeks if detected early. Damaged berries will not recover, but healthy new growth can be protected and future infections minimized."
+    }
+  },
+
+  {
+    "name": "Grape___Esca_(Black_Measles)",
+    "scientific_name": "Phaeomoniella chlamydospora, Phaeoacremonium minimum, and Fomitiporia mediterranea",
+    "category": "Grape disease",
+    "pathogen_type": "Fungal trunk disease",
+    "cause": "Esca (Black Measles) is a complex fungal disease caused by several fungi that infect the vascular tissue of grapevines. Infection usually occurs through pruning wounds, where the fungi colonize the wood, restricting water and nutrient movement and gradually weakening the vine.",
+    "spread": "The fungi spread mainly through airborne spores entering fresh pruning wounds, contaminated pruning tools, infected planting material, and old diseased vines.",
+    "environment": "Disease development is favored by temperatures of 20–30°C, high humidity, repeated rainfall after pruning, aging vineyards, and poor pruning hygiene.",
+    "symptoms": [
+      "Tiger-stripe yellow and brown patterns on leaves",
+      "Dark brown or black spots on berries (Black Measles)",
+      "Sudden wilting of shoots during hot weather",
+      "White rot inside the trunk wood",
+      "Reduced vine vigor and fruit production",
+      "Gradual dieback of branches"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "A few leaves show tiger-stripe symptoms while vine growth remains mostly normal.",
+        "medium": "Multiple branches show symptoms with reduced vigor and berry spotting.",
+        "severe": "Large portions of the vine decline, trunk decay develops, and permanent yield loss occurs."
+      },
+      "immediate_action": [
+        "Mark infected vines for close monitoring.",
+        "Remove infected shoots and dead branches immediately.",
+        "Disinfect pruning tools using 70% alcohol or 10% bleach solution.",
+        "Avoid pruning during rainy weather."
+      ],
+      "cultural_control": [
+        "Prune during dry weather only.",
+        "Apply pruning wound protectants immediately after pruning.",
+        "Remove severely infected vines if trunk decay is extensive.",
+        "Improve vineyard drainage and airflow.",
+        "Avoid unnecessary trunk injuries."
+      ],
+      "chemical_control": {
+        "products": [
+          "Thiophanate-methyl",
+          "Tebuconazole",
+          "Pruning wound sealant with fungicide",
+          "Boron-based wound paste"
+        ],
+        "active_ingredients": [
+          "Thiophanate-methyl",
+          "Tebuconazole",
+          "Copper compounds",
+          "Boron"
+        ],
+        "dosage": [
+          "Thiophanate-methyl: 1–1.5 g/L water",
+          "Tebuconazole 25 EC: 1 ml/L water",
+          "Apply pruning wound paste directly after each pruning cut according to label directions."
+        ],
+        "application_method": [
+          "Spray vines after pruning if recommended.",
+          "Brush wound sealant directly onto fresh pruning cuts.",
+          "Ensure complete coverage of all large pruning wounds."
+        ],
+        "frequency": [
+          "Apply after every annual pruning.",
+          "Repeat fungicide application every 10–14 days if conditions remain favorable for infection."
+        ],
+        "best_time": [
+          "Immediately after pruning.",
+          "Early morning or late afternoon during dry weather."
+        ],
+        "expected_impact": [
+          "Helps prevent new trunk infections.",
+          "Reduces disease progression in early stages.",
+          "Cannot fully cure severely infected trunks but extends vine lifespan."
+        ]
+      },
+      "biological_control": [
+        "Apply Trichoderma atroviride or Trichoderma harzianum to fresh pruning wounds.",
+        "Increase soil organic matter to encourage beneficial microorganisms.",
+        "Use certified disease-free planting material."
+      ],
+      "prevention": [
+        "Disinfect pruning tools between vines.",
+        "Protect pruning wounds immediately.",
+        "Avoid pruning before rainfall.",
+        "Remove and destroy dead infected wood.",
+        "Inspect vineyards regularly for trunk disease symptoms.",
+        "Purchase only certified healthy grape planting stock."
+      ],
+      "estimated_recovery_time": "Early infections may stabilize within 4–8 weeks after proper management. Severely infected vines generally cannot fully recover, but disease progression can be slowed considerably."
+    }
+  },
+
+  {
+    "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+    "scientific_name": "Pseudocercospora vitis (Syn. Isariopsis clavispora)",
+    "category": "Grape disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Grape Leaf Blight (Isariopsis Leaf Spot) is caused by the fungus Pseudocercospora vitis. The pathogen survives on infected leaves and plant debris and produces spores during warm, humid conditions. These spores infect young grape leaves, reducing photosynthesis and weakening vine growth.",
+    "spread": "The disease spreads through wind-blown spores, rain splash, contaminated pruning tools, infected crop residue, and prolonged wet foliage.",
+    "environment": "Disease development is favored by temperatures of 25–30°C, relative humidity above 85%, frequent rainfall, dense vine canopies, poor air circulation, and extended leaf wetness.",
+    "symptoms": [
+      "Small reddish-brown circular spots on leaves",
+      "Dark brown or black lesions surrounded by yellow halos",
+      "Gray fungal growth on the underside of leaves",
+      "Premature leaf yellowing and drop",
+      "Reduced photosynthesis",
+      "Poor fruit development and lower yield"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "A few small brown spots appear on older leaves.",
+        "medium": "Numerous lesions merge together and lower leaves begin falling.",
+        "severe": "Heavy defoliation occurs, vine vigor decreases, and fruit quality is significantly reduced."
+      },
+      "immediate_action": [
+        "Remove infected leaves immediately.",
+        "Collect and destroy fallen leaves.",
+        "Inspect nearby vines for symptoms.",
+        "Avoid overhead irrigation."
+      ],
+      "cultural_control": [
+        "Prune vines to improve sunlight penetration and airflow.",
+        "Maintain recommended vine spacing.",
+        "Remove infected debris after harvest.",
+        "Avoid excessive nitrogen fertilization.",
+        "Use drip irrigation whenever possible.",
+        "Keep vineyards free from weeds that increase humidity."
+      ],
+      "chemical_control": {
+        "products": [
+          "Mancozeb 75 WP",
+          "Copper Oxychloride 50 WP",
+          "Azoxystrobin 250 SC",
+          "Propiconazole 25 EC",
+          "Chlorothalonil 75 WP"
+        ],
+        "active_ingredients": [
+          "Mancozeb",
+          "Copper Oxychloride",
+          "Azoxystrobin",
+          "Propiconazole",
+          "Chlorothalonil"
+        ],
+        "dosage": [
+          "Mancozeb 75 WP: 2–2.5 g/L water",
+          "Copper Oxychloride 50 WP: 2.5–3 g/L water",
+          "Azoxystrobin 250 SC: 0.8–1 ml/L water",
+          "Propiconazole 25 EC: 1 ml/L water",
+          "Chlorothalonil 75 WP: 2 g/L water"
+        ],
+        "application_method": [
+          "Spray both upper and lower leaf surfaces thoroughly.",
+          "Ensure complete canopy coverage.",
+          "Use approximately 700–1000 L of spray solution per hectare."
+        ],
+        "frequency": [
+          "Repeat every 10–14 days during humid weather.",
+          "Repeat every 7–10 days if disease pressure is high.",
+          "Rotate fungicide groups to delay resistance."
+        ],
+        "best_time": [
+          "Spray early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Avoid spraying before rainfall or during strong winds."
+        ],
+        "expected_impact": [
+          "Disease spread slows within 5–7 days.",
+          "New healthy foliage develops within 2–3 weeks.",
+          "Up to 85–90% disease control when treatment begins early."
+        ]
+      },
+      "biological_control": [
+        "Apply Trichoderma harzianum around the root zone.",
+        "Use Bacillus subtilis biofungicide as a preventive foliar spray.",
+        "Improve soil microbial activity with compost or organic manure."
+      ],
+      "prevention": [
+        "Use certified disease-free planting material.",
+        "Inspect vineyards weekly during the rainy season.",
+        "Remove infected leaves immediately.",
+        "Prune annually for better ventilation.",
+        "Maintain balanced fertilization.",
+        "Apply preventive fungicides before prolonged rainy periods.",
+        "Practice good vineyard sanitation every season."
+      ],
+      "estimated_recovery_time": "Approximately 2–4 weeks if detected and treated early. Severely damaged leaves will not recover, but new healthy leaves can develop and the disease can be effectively contained."
+    }
+  },
+
+  {
+    "name": "Grape___healthy",
+    "scientific_name": "Vitis vinifera",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The grapevine is healthy and shows normal physiological growth without signs of fungal, bacterial, viral, or pest infection. Leaves are actively photosynthesizing, supporting healthy vine growth and fruit development.",
+    "spread": "Not applicable.",
+    "environment": "Healthy grape growth occurs under temperatures of 20–30°C, full sunlight (6–8 hours daily), well-drained loamy soil with pH 5.5–7.0, moderate humidity, and good air circulation.",
+    "symptoms": [
+      "Bright green healthy leaves",
+      "Uniform leaf color with no spots or discoloration",
+      "Strong vine growth",
+      "Healthy tendrils",
+      "Normal flowering and fruit set",
+      "Well-developed grape clusters",
+      "No signs of insects or disease lesions"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy",
+        "medium": "Healthy",
+        "severe": "Healthy"
+      },
+      "immediate_action": [
+        "No treatment is required.",
+        "Continue regular vineyard monitoring.",
+        "Inspect vines weekly for early signs of disease or pests."
+      ],
+      "cultural_control": [
+        "Prune vines annually to maintain airflow.",
+        "Remove weeds around the vineyard.",
+        "Use drip irrigation instead of overhead watering.",
+        "Apply fertilizers according to soil test recommendations.",
+        "Maintain proper vine spacing.",
+        "Remove dead leaves and fallen fruit after harvest."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide or pesticide is necessary while the vine remains healthy."
+        ]
+      },
+      "biological_control": [
+        "Maintain healthy soil microorganisms with compost or organic manure.",
+        "Apply Trichoderma spp. around the root zone as a preventive measure.",
+        "Encourage beneficial insects by maintaining biodiversity around the vineyard."
+      ],
+      "prevention": [
+        "Use certified disease-free planting material.",
+        "Inspect vines every 7–10 days.",
+        "Prune during dry weather.",
+        "Disinfect pruning tools regularly.",
+        "Maintain balanced NPK fertilization based on soil tests.",
+        "Ensure proper sunlight and airflow throughout the vineyard.",
+        "Remove infected plant debris immediately if any disease appears.",
+        "Monitor weather conditions during the rainy season for early disease prevention."
+      ],
+      "estimated_recovery_time": "Not applicable (plant is healthy). Continue routine management practices to maintain vine health and productivity."
+    }
+  },
+
+  {
+    "name": "Orange___Haunglongbing_(Citrus_greening)",
+    "scientific_name": "Candidatus Liberibacter asiaticus",
+    "category": "Orange disease",
+    "pathogen_type": "Bacterial disease (vector-borne)",
+    "cause": "Huanglongbing (HLB), also known as Citrus Greening, is caused by the bacterium Candidatus Liberibacter asiaticus. The bacterium lives in the phloem tissue of citrus plants, blocking nutrient transport and gradually causing tree decline. It is primarily transmitted by the Asian citrus psyllid (Diaphorina citri).",
+    "spread": "The disease spreads mainly through infected Asian citrus psyllids, infected nursery plants, grafting with infected budwood, and movement of infected plant material.",
+    "environment": "Disease develops rapidly in warm climates (25–32°C), areas with high Asian citrus psyllid populations, and orchards where infected trees remain untreated.",
+    "symptoms": [
+      "Blotchy yellow mottling on leaves",
+      "Yellow shoots and vein yellowing",
+      "Small, misshapen fruits",
+      "Fruits remain green at the stem end",
+      "Bitter-tasting fruit",
+      "Premature fruit drop",
+      "Twig dieback",
+      "Overall decline of the tree"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "A few leaves show blotchy yellow mottling while tree vigor remains good.",
+        "medium": "Yellowing spreads throughout the canopy, fruit quality declines, and growth slows.",
+        "severe": "Extensive canopy decline, severe fruit loss, twig dieback, and tree death may occur."
+      },
+      "immediate_action": [
+        "Inspect nearby citrus trees immediately.",
+        "Control Asian citrus psyllids as soon as symptoms are detected.",
+        "Mark infected trees for continuous monitoring.",
+        "Remove severely infected trees to prevent further spread."
+      ],
+      "cultural_control": [
+        "Use only certified disease-free nursery plants.",
+        "Remove infected trees when disease becomes severe.",
+        "Control weeds and alternate host plants around orchards.",
+        "Regularly prune dead or infected branches.",
+        "Monitor orchards every 1–2 weeks for psyllids."
+      ],
+      "chemical_control": {
+        "products": [
+          "Imidacloprid 17.8 SL",
+          "Thiamethoxam 25 WG",
+          "Dimethoate 30 EC",
+          "Abamectin 1.8 EC (for psyllid suppression)",
+          "Copper Hydroxide (secondary disease prevention)"
+        ],
+        "active_ingredients": [
+          "Imidacloprid",
+          "Thiamethoxam",
+          "Dimethoate",
+          "Abamectin",
+          "Copper Hydroxide"
+        ],
+        "dosage": [
+          "Imidacloprid 17.8 SL: 0.3–0.5 ml/L water",
+          "Thiamethoxam 25 WG: 0.25–0.3 g/L water",
+          "Dimethoate 30 EC: 1.5–2 ml/L water",
+          "Abamectin 1.8 EC: 0.5 ml/L water",
+          "Copper Hydroxide: 2 g/L water"
+        ],
+        "application_method": [
+          "Spray the entire tree canopy thoroughly.",
+          "Pay special attention to new flushes where psyllids feed.",
+          "Apply using a high-pressure sprayer for uniform coverage."
+        ],
+        "frequency": [
+          "Repeat insecticide applications every 10–14 days during heavy psyllid infestations.",
+          "Rotate insecticide groups to reduce resistance development."
+        ],
+        "best_time": [
+          "Spray early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Avoid spraying during flowering when bees are actively foraging.",
+          "Do not spray before heavy rainfall."
+        ],
+        "expected_impact": [
+          "Psyllid populations decline within 3–7 days.",
+          "Disease spread is significantly reduced by vector control.",
+          "Existing infected leaves will not recover, but healthy new growth can be protected."
+        ]
+      },
+      "biological_control": [
+        "Release Tamarixia radiata, a natural parasitoid of the Asian citrus psyllid.",
+        "Encourage ladybird beetles and lacewings that feed on psyllids.",
+        "Maintain healthy soil with compost to improve tree vigor."
+      ],
+      "prevention": [
+        "Plant certified HLB-free nursery stock.",
+        "Monitor orchards weekly for psyllids.",
+        "Remove infected trees promptly.",
+        "Disinfect grafting and pruning tools.",
+        "Control psyllid populations throughout the year.",
+        "Maintain balanced fertilization and irrigation to improve tree health.",
+        "Avoid transporting citrus plants from infected areas."
+      ],
+      "estimated_recovery_time": "There is currently no cure for Huanglongbing (HLB). Early management can slow disease progression and prolong tree productivity for several years, while severely infected trees should be removed to protect healthy orchards."
+    }
+  },
+
+  {
+    "name": "Peach___Bacterial_spot",
+    "scientific_name": "Xanthomonas arboricola pv. pruni",
+    "category": "Peach disease",
+    "pathogen_type": "Bacterial disease",
+    "cause": "Peach bacterial spot is caused by the bacterium Xanthomonas arboricola pv. pruni. The bacteria infect leaves, fruit, and young shoots, entering through natural openings or wounds. The disease reduces photosynthesis, damages fruit quality, and can lower overall yield.",
+    "spread": "The disease spreads through rain splash, wind-driven water droplets, contaminated pruning tools, infected nursery plants, and movement of bacteria from infected tissues to healthy plant parts.",
+    "environment": "Disease development is favored by warm temperatures (24–30°C), high humidity, frequent rainfall, prolonged leaf wetness, strong winds, and orchards with poor air circulation.",
+    "symptoms": [
+      "Small water-soaked spots on leaves",
+      "Dark brown angular leaf lesions",
+      "Yellow halos around leaf spots",
+      "Premature leaf drop",
+      "Small sunken dark spots on fruit",
+      "Fruit cracking and reduced market quality",
+      "Dark lesions on young shoots"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small leaf spots appear with limited fruit damage.",
+        "medium": "Multiple lesions develop on leaves and fruit, with early defoliation.",
+        "severe": "Heavy leaf loss, extensive fruit spotting, and reduced crop yield occur."
+      },
+      "immediate_action": [
+        "Remove heavily infected leaves and fruit.",
+        "Disinfect pruning tools after cutting infected branches.",
+        "Avoid working with wet foliage because bacteria spread easily through moisture.",
+        "Inspect nearby peach trees for early symptoms."
+      ],
+      "cultural_control": [
+        "Maintain proper tree spacing for airflow.",
+        "Prune branches to improve sunlight penetration.",
+        "Remove fallen infected leaves and fruit from the orchard.",
+        "Avoid overhead irrigation.",
+        "Use disease-free nursery plants.",
+        "Avoid excessive nitrogen fertilizer that creates soft susceptible growth."
+      ],
+      "chemical_control": {
+        "products": [
+          "Copper Hydroxide 77 WP",
+          "Copper Oxychloride 50 WP",
+          "Bordeaux mixture",
+          "Kasugamycin-based bactericide",
+          "Oxytetracycline-based bactericide (where approved)"
+        ],
+        "active_ingredients": [
+          "Copper Hydroxide",
+          "Copper Oxychloride",
+          "Copper Sulfate + Calcium Hydroxide",
+          "Kasugamycin",
+          "Oxytetracycline"
+        ],
+        "dosage": [
+          "Copper Hydroxide 77 WP: 1.5–2 g/L water",
+          "Copper Oxychloride 50 WP: 2–3 g/L water",
+          "Bordeaux mixture: 1% solution (10 g copper sulfate + 10 g lime per litre water)",
+          "Kasugamycin: follow product label recommendations",
+          "Oxytetracycline: follow registered agricultural label instructions"
+        ],
+        "application_method": [
+          "Spray the entire tree canopy including upper and lower leaf surfaces.",
+          "Cover fruit surfaces evenly.",
+          "Apply using a fine mist sprayer for complete coverage."
+        ],
+        "frequency": [
+          "Apply every 7–14 days during rainy and humid conditions.",
+          "Begin preventive spraying before disease outbreaks during high-risk periods.",
+          "Rotate bactericide products to reduce resistance."
+        ],
+        "best_time": [
+          "Apply early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Spray before rainfall events when possible.",
+          "Avoid spraying during extreme heat."
+        ],
+        "expected_impact": [
+          "Reduces new bacterial infections within 5–7 days.",
+          "Protects new leaves and developing fruit.",
+          "Early treatment can reduce disease damage by 70–90%.",
+          "Existing fruit lesions will not disappear but further spread can be limited."
+        ]
+      },
+      "biological_control": [
+        "Apply Bacillus subtilis-based biological bactericides.",
+        "Encourage beneficial microorganisms through compost application.",
+        "Maintain healthy soil microbial activity."
+      ],
+      "prevention": [
+        "Plant bacterial spot-resistant peach varieties when available.",
+        "Use certified disease-free planting material.",
+        "Remove infected plant debris after harvest.",
+        "Avoid overhead irrigation.",
+        "Maintain orchard sanitation.",
+        "Monitor trees regularly during warm and wet seasons.",
+        "Disinfect pruning equipment between trees."
+      ],
+      "estimated_recovery_time": "2–4 weeks if detected early and properly managed. Damaged leaves and fruit spots will not disappear, but new growth can remain healthy and productive."
+    }
+  },
+
+  {
+    "name": "Peach___healthy",
+    "scientific_name": "Prunus persica",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The peach tree shows normal physiological growth without visible signs of fungal, bacterial, viral, or pest infection. Leaves, shoots, and fruit development appear healthy.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy peach growth requires full sunlight (6–8 hours daily), well-drained soil with pH 6.0–7.0, balanced nutrients, proper irrigation, good air circulation, and suitable temperatures between 18–30°C.",
+    "symptoms": [
+      "Bright green healthy leaves",
+      "Normal leaf shape and size",
+      "Strong branch and shoot growth",
+      "Healthy flowering",
+      "Normal fruit development",
+      "No visible spots, lesions, or discoloration",
+      "No insect damage or abnormal growth"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring normal maintenance and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular inspection of leaves, branches, and fruit.",
+        "Monitor for early signs of pests or diseases."
+      ],
+      "cultural_control": [
+        "Prune branches annually to maintain airflow and sunlight penetration.",
+        "Remove fallen leaves and old fruit from around the tree.",
+        "Maintain proper irrigation without waterlogging the soil.",
+        "Apply fertilizer according to soil nutrient requirements.",
+        "Maintain proper spacing between peach trees.",
+        "Remove weeds competing for nutrients and water."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No pesticide or fungicide application is required while the tree remains healthy.",
+          "Preventive sprays should only be used if disease risk becomes high."
+        ]
+      },
+      "biological_control": [
+        "Apply compost or organic matter to maintain healthy soil microbes.",
+        "Use beneficial microorganisms such as Trichoderma spp. to support root health.",
+        "Encourage beneficial insects such as lady beetles and lacewings."
+      ],
+      "prevention": [
+        "Use certified disease-free peach seedlings.",
+        "Inspect trees every 7–10 days during the growing season.",
+        "Maintain balanced nitrogen, phosphorus, and potassium nutrition.",
+        "Avoid excessive irrigation that creates humid conditions.",
+        "Disinfect pruning tools before and after use.",
+        "Remove damaged or dead branches promptly.",
+        "Maintain good orchard sanitation throughout the year."
+      ],
+      "estimated_recovery_time": "Not applicable. The peach tree is healthy. Continue proper agricultural practices to maintain productivity and prevent future disease."
+    }
+  },
+
+  {
+    "name": "Pepper,_bell___Bacterial_spot",
+    "scientific_name": "Xanthomonas euvesicatoria (formerly Xanthomonas campestris pv. vesicatoria)",
+    "category": "Bell pepper disease",
+    "pathogen_type": "Bacterial disease",
+    "cause": "Bell pepper bacterial spot is caused by Xanthomonas species, especially Xanthomonas euvesicatoria. The bacteria infect leaves, stems, and fruit through natural openings, wounds, or damaged plant tissues. The disease reduces photosynthesis, weakens plants, and lowers fruit quality and yield.",
+    "spread": "The disease spreads through rain splash, overhead irrigation, contaminated seeds, infected transplants, agricultural tools, workers' hands, and contact between infected and healthy plants.",
+    "environment": "Disease development is favored by warm temperatures (24–30°C), high humidity, frequent rainfall, prolonged leaf wetness, dense plant growth, and poor air circulation.",
+    "symptoms": [
+      "Small water-soaked spots on leaves",
+      "Dark brown circular or irregular leaf lesions",
+      "Yellow halos around leaf spots",
+      "Leaf yellowing and premature leaf drop",
+      "Raised rough spots on pepper fruit",
+      "Fruit cracking and reduced market quality",
+      "Dark lesions on stems"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small isolated leaf spots appear with limited damage to fruit.",
+        "medium": "Multiple lesions appear on leaves and fruit with some leaf yellowing.",
+        "severe": "Heavy defoliation, widespread fruit spotting, and significant yield reduction occur."
+      },
+      "immediate_action": [
+        "Remove severely infected leaves and fruits.",
+        "Separate infected plants from healthy plants where possible.",
+        "Disinfect pruning tools after handling infected plants.",
+        "Avoid working with plants when leaves are wet.",
+        "Inspect nearby pepper plants for early symptoms."
+      ],
+      "cultural_control": [
+        "Use certified disease-free seeds and transplants.",
+        "Practice crop rotation with non-host crops for 2–3 years.",
+        "Avoid overhead irrigation to reduce bacterial spread.",
+        "Maintain proper spacing between plants for airflow.",
+        "Remove infected crop debris after harvest.",
+        "Control weeds that can harbor bacteria.",
+        "Avoid excessive nitrogen fertilizer application."
+      ],
+      "chemical_control": {
+        "products": [
+          "Copper Hydroxide 77 WP",
+          "Copper Oxychloride 50 WP",
+          "Copper Sulfate + Lime (Bordeaux mixture)",
+          "Streptomycin-based bactericide (where legally approved)",
+          "Kasugamycin-based bactericide"
+        ],
+        "active_ingredients": [
+          "Copper Hydroxide",
+          "Copper Oxychloride",
+          "Copper Sulfate and Calcium Hydroxide",
+          "Streptomycin",
+          "Kasugamycin"
+        ],
+        "dosage": [
+          "Copper Hydroxide 77 WP: 1.5–2 g/L water",
+          "Copper Oxychloride 50 WP: 2–3 g/L water",
+          "Bordeaux mixture: 1% solution",
+          "Streptomycin: use according to registered product label",
+          "Kasugamycin: use according to registered product label"
+        ],
+        "application_method": [
+          "Spray the complete plant canopy including both upper and lower leaf surfaces.",
+          "Ensure complete coverage of leaves, stems, and developing fruits.",
+          "Apply using a fine mist sprayer for uniform distribution."
+        ],
+        "frequency": [
+          "Apply every 7–10 days during warm and rainy conditions.",
+          "Repeat applications after heavy rainfall.",
+          "Rotate bactericide groups to reduce resistance development."
+        ],
+        "best_time": [
+          "Apply early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Apply before rainfall when disease pressure is high.",
+          "Avoid spraying during extreme heat or strong sunlight."
+        ],
+        "expected_impact": [
+          "Reduces new bacterial infections within 5–7 days.",
+          "Protects newly developing leaves and fruits.",
+          "Early management can reduce crop damage by 60–80%.",
+          "Existing lesions will not disappear but further spread can be controlled."
+        ]
+      },
+      "biological_control": [
+        "Apply Bacillus subtilis-based biological bactericides where available.",
+        "Use beneficial microorganisms to improve plant resistance.",
+        "Maintain healthy soil microbial activity through compost and organic matter."
+      ],
+      "prevention": [
+        "Plant bacterial spot-resistant pepper varieties when available.",
+        "Use certified disease-free seeds.",
+        "Disinfect seeds before planting using approved seed treatment methods.",
+        "Avoid touching plants when foliage is wet.",
+        "Remove infected plant debris immediately.",
+        "Maintain proper field sanitation.",
+        "Monitor plants weekly during warm and humid periods."
+      ],
+      "estimated_recovery_time": "2–4 weeks after early detection and proper management. Damaged leaves and fruit spots will not recover, but new healthy growth can develop if bacterial spread is controlled."
+    }
+  },
+
+  {
+    "name": "Pepper,_bell___healthy",
+    "scientific_name": "Capsicum annuum",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The bell pepper plant shows normal physiological growth without visible symptoms of fungal, bacterial, viral, or pest infection. Leaves, stems, flowers, and fruits appear healthy and actively developing.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy bell pepper growth requires full sunlight (6–8 hours daily), well-drained fertile soil with pH 6.0–6.8, balanced nutrients, consistent moisture, good airflow, and temperatures between 21–30°C.",
+    "symptoms": [
+      "Healthy dark green leaves",
+      "Normal leaf shape and size",
+      "Strong upright stems",
+      "Healthy flowering",
+      "Normal fruit formation",
+      "Smooth and well-developed peppers",
+      "No visible spots, lesions, yellowing, or pest damage"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring normal crop maintenance and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular inspection of leaves, stems, and fruits.",
+        "Monitor plants weekly for early signs of disease or pests."
+      ],
+      "cultural_control": [
+        "Maintain proper irrigation and avoid waterlogging.",
+        "Apply balanced fertilizers based on soil nutrient requirements.",
+        "Maintain plant spacing of approximately 45–60 cm for good airflow.",
+        "Remove weeds competing for nutrients and water.",
+        "Remove old leaves and plant debris after harvest.",
+        "Use crop rotation with non-solanaceous crops when possible.",
+        "Support plants with stakes if heavy fruit production causes bending."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No pesticide, fungicide, or bactericide application is required while the plant remains healthy.",
+          "Preventive chemical applications should only be considered when disease risk is high."
+        ]
+      },
+      "biological_control": [
+        "Apply compost or well-decomposed organic manure to maintain soil fertility.",
+        "Use beneficial microorganisms such as Trichoderma spp. to support root health.",
+        "Encourage beneficial insects such as lady beetles and predatory insects.",
+        "Maintain healthy soil microbial activity to improve plant resistance."
+      ],
+      "prevention": [
+        "Use certified disease-free pepper seeds or seedlings.",
+        "Inspect plants every 7–10 days for early disease detection.",
+        "Maintain balanced nitrogen, phosphorus, and potassium nutrition.",
+        "Avoid excessive nitrogen fertilizer that creates weak growth.",
+        "Disinfect gardening tools regularly.",
+        "Avoid overhead irrigation that keeps leaves wet.",
+        "Maintain good airflow between plants.",
+        "Remove infected plants immediately if disease appears.",
+        "Practice proper field sanitation throughout the growing season."
+      ],
+      "estimated_recovery_time": "Not applicable. The bell pepper plant is healthy. Continue proper agricultural management to maintain strong growth and high yield."
+    }
+  },
+
+
+  {
+    "name": "Potato___Early_blight",
+    "scientific_name": "Alternaria solani",
+    "category": "Potato disease",
+    "pathogen_type": "Fungal disease",
+
+
+    "cause": "Early blight is caused by Alternaria solani, affecting leaves, stems, and tubers.",
+
+    "spread": "Spores spread through wind, rain splash, and infected crop debris.",
+
+    "environment": "Warm temperatures (24-29°C), humidity, and plant stress increase disease.",
+
+
+    "symptoms": [
+      "Dark circular lesions with rings",
+      "Yellowing leaves",
+      "Stem spots",
+      "Tubers with dark lesions"
+    ],
+
+
+    "treatment": {
+
+
+      "severity_levels": {
+        "early": "Small leaf lesions detected.",
+        "medium": "Multiple leaves infected.",
+        "severe": "Major defoliation and tuber risk."
+      },
+
+
+      "immediate_action": [
+        "Remove infected leaves.",
+        "Separate infected tubers."
+      ],
+
+
+      "cultural_control": [
+        "Rotate crops for 2-3 years.",
+        "Remove infected plant debris.",
+        "Maintain balanced fertilizer."
+      ],
+
+
+      "chemical_control": {
+
+
+        "products": [
+          "Mancozeb 75% WP",
+          "Chlorothalonil 75% WP",
+          "Azoxystrobin fungicides"
+        ],
+
+
+        "active_ingredients": [
+          "Mancozeb",
+          "Chlorothalonil",
+          "Azoxystrobin"
+        ],
+
+
+        "dosage": [
+          "Mancozeb: 2-3 grams per liter water.",
+          "Chlorothalonil: around 2 grams per liter water."
+        ],
+
+
+        "application_method": [
+          "Spray complete foliage coverage."
+        ],
+
+
+        "frequency": [
+          "Repeat every 7-10 days during active disease."
+        ],
+
+
+        "best_time": [
+          "Start when first spots appear."
+        ],
+
+
+        "expected_impact": [
+          "Early treatment can reduce disease damage by 70-90%."
+        ]
+
+      },
+
+
+      "biological_control": [
+        "Use Bacillus or Trichoderma-based products."
+      ],
+
+
+      "prevention": [
+        "Plant certified disease-free seed potatoes.",
+        "Maintain field sanitation."
+      ],
+
+
+      "estimated_recovery_time": "3-4 weeks"
+
+    }
+  },
+
+  {
+    "name": "Potato___Late_blight",
+    "scientific_name": "Phytophthora infestans",
+    "category": "Potato disease",
+    "pathogen_type": "Oomycete pathogen (water mold)",
+    "cause": "Late blight is caused by Phytophthora infestans, a highly destructive pathogen that attacks potato leaves, stems, and tubers. The pathogen produces spores that rapidly infect plant tissues under cool and wet conditions.",
+    "spread": "The disease spreads through airborne spores, rain splash, infected seed tubers, contaminated tools, and movement through infected fields.",
+    "environment": "Disease development is favored by cool temperatures (10-20°C), high humidity, rainfall, heavy dew, and long periods of leaf wetness.",
+    "symptoms": [
+      "Dark water-soaked lesions on leaves",
+      "White fungal-like growth on leaf undersides",
+      "Rapid leaf destruction",
+      "Brown rot patches on tubers",
+      "Complete crop collapse in severe infections"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few leaf spots detected. Immediate fungicide protection can stop further spread.",
+        "medium": "Multiple leaves infected. Repeated fungicide protection is required.",
+        "severe": "Large plant areas destroyed. Remove infected plants to protect remaining crops."
+      },
+      "immediate_action": [
+        "Remove infected plants immediately.",
+        "Destroy infected tubers and avoid storing them with healthy potatoes.",
+        "Avoid entering wet infected fields to prevent spreading spores."
+      ],
+      "cultural_control": [
+        "Use certified disease-free seed potatoes.",
+        "Practice crop rotation with non-host crops for 2-3 years.",
+        "Maintain proper plant spacing for airflow.",
+        "Remove infected plant residues after harvest."
+      ],
+      "chemical_control": {
+        "products": [
+          "Metalaxyl + Mancozeb 72% WP",
+          "Copper oxychloride 50% WP",
+          "Chlorothalonil 75% WP"
+        ],
+        "active_ingredients": [
+          "Metalaxyl",
+          "Mancozeb",
+          "Copper compounds",
+          "Chlorothalonil"
+        ],
+        "dosage": [
+          "Metalaxyl + Mancozeb: 2 grams per liter of water.",
+          "Copper oxychloride: 2-3 grams per liter of water.",
+          "Chlorothalonil: follow product label recommendation."
+        ],
+        "application_method": [
+          "Spray all leaf surfaces until evenly covered.",
+          "Focus on lower leaves where infection begins."
+        ],
+        "frequency": [
+          "Repeat every 7-10 days during rainy or high-risk periods."
+        ],
+        "best_time": [
+          "Apply before disease outbreak when weather conditions favor infection."
+        ],
+        "expected_impact": [
+          "Early preventive spraying can reduce crop losses by 70-90%."
+        ]
+      },
+      "biological_control": [
+        "Use Trichoderma-based biological products where available.",
+        "Maintain healthy soil microorganisms."
+      ],
+      "prevention": [
+        "Plant resistant potato varieties.",
+        "Monitor weather conditions regularly.",
+        "Remove volunteer potato plants."
+      ],
+      "estimated_recovery_time": "3-5 weeks depending on infection severity"
+    }
+  },
+
+  {
+    "name": "Potato___healthy",
+    "scientific_name": "Solanum tuberosum",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The potato plant shows normal physiological growth without visible symptoms of fungal, bacterial, viral, or pest infection. Leaves, stems, and tuber development appear healthy.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy potato growth requires well-drained fertile soil with pH 5.0–6.5, adequate sunlight, balanced nutrients, consistent moisture, and temperatures between 15–25°C. Proper soil aeration and crop management support strong plant development.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal leaf shape and size",
+      "Strong upright stems",
+      "Active plant growth",
+      "Normal flowering",
+      "Healthy tuber development",
+      "No visible spots, lesions, wilting, or discoloration",
+      "No insect damage"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy potato plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring normal crop maintenance and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular monitoring of leaves, stems, and soil conditions.",
+        "Inspect plants weekly for early signs of disease or pests."
+      ],
+      "cultural_control": [
+        "Maintain proper irrigation and avoid waterlogging.",
+        "Use certified disease-free seed potatoes.",
+        "Practice crop rotation with non-solanaceous crops for 2–3 years.",
+        "Maintain proper plant spacing for airflow.",
+        "Remove weeds competing for nutrients.",
+        "Remove damaged leaves and plant debris after harvest.",
+        "Maintain soil fertility through balanced fertilization.",
+        "Hill soil around plants to support tuber development and prevent greening."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide, pesticide, or bactericide application is required while the potato plant remains healthy.",
+          "Preventive treatments should only be applied when disease risk is high."
+        ]
+      },
+      "biological_control": [
+        "Apply compost or well-decomposed organic manure to improve soil health.",
+        "Use beneficial microorganisms such as Trichoderma spp. to support root protection.",
+        "Maintain beneficial soil microbes through organic matter management.",
+        "Encourage natural predators to reduce pest pressure."
+      ],
+      "prevention": [
+        "Use certified disease-free seed potatoes.",
+        "Inspect crops every 7–10 days during the growing season.",
+        "Avoid planting potatoes repeatedly in the same field.",
+        "Maintain balanced nitrogen, phosphorus, and potassium fertilization.",
+        "Avoid excessive irrigation that increases fungal disease risk.",
+        "Remove volunteer potato plants that may carry diseases.",
+        "Store harvested tubers in clean, dry conditions.",
+        "Disinfect farming tools before use.",
+        "Monitor regularly for early signs of blight, pests, or nutrient deficiency."
+      ],
+      "estimated_recovery_time": "Not applicable. The potato plant is healthy. Continue proper crop management practices to maintain productivity and prevent future disease."
+    }
+  },
+
+  {
+    "name": "Raspberry___healthy",
+    "scientific_name": "Rubus idaeus",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The raspberry plant shows normal physiological growth without visible signs of fungal, bacterial, viral, or pest infection. Leaves, canes, flowers, and fruit development appear healthy.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy raspberry growth requires well-drained fertile soil with pH 5.5–6.5, adequate sunlight (6–8 hours daily), consistent moisture, good air circulation, and temperatures generally between 15–25°C.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal leaf shape and size",
+      "Strong upright canes",
+      "Healthy flowering",
+      "Normal berry development",
+      "Good fruit color and size",
+      "No visible leaf spots, wilting, or discoloration",
+      "No insect damage or abnormal growth"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy raspberry plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring regular maintenance and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular monitoring of leaves, stems, flowers, and fruit.",
+        "Inspect plants weekly for early signs of pests or diseases."
+      ],
+      "cultural_control": [
+        "Prune old fruiting canes after harvest to improve airflow.",
+        "Maintain proper spacing between raspberry plants.",
+        "Remove weeds competing for nutrients and water.",
+        "Apply balanced fertilizer based on soil nutrient requirements.",
+        "Maintain consistent irrigation, especially during fruit development.",
+        "Remove fallen leaves and old plant debris from around plants.",
+        "Avoid excessive nitrogen fertilizer that creates weak soft growth.",
+        "Use mulch to maintain soil moisture and reduce weed growth."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide, pesticide, or chemical treatment is required while the raspberry plant remains healthy.",
+          "Preventive sprays should only be considered when disease pressure is high."
+        ]
+      },
+      "biological_control": [
+        "Apply compost or organic matter to improve soil microbial activity.",
+        "Use beneficial microorganisms such as Trichoderma spp. to support root health.",
+        "Encourage beneficial insects such as lady beetles and predatory insects.",
+        "Maintain biodiversity around the growing area to support natural pest control."
+      ],
+      "prevention": [
+        "Use certified disease-free raspberry planting material.",
+        "Inspect plants every 7–10 days during the growing season.",
+        "Maintain proper airflow through regular pruning.",
+        "Avoid overhead irrigation that keeps leaves wet for long periods.",
+        "Remove infected plant material immediately if symptoms appear.",
+        "Disinfect pruning tools before and after use.",
+        "Maintain balanced soil nutrition.",
+        "Avoid planting raspberries in poorly drained soil.",
+        "Practice proper garden sanitation throughout the year."
+      ],
+      "estimated_recovery_time": "Not applicable. The raspberry plant is healthy. Continue proper cultivation practices to maintain strong growth and high fruit production."
+    }
+  },
+
+  {
+    "name": "Soybean___healthy",
+    "scientific_name": "Glycine max",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The soybean plant shows normal physiological growth without visible symptoms of fungal, bacterial, viral, or pest infection. Leaves, stems, flowers, and pods are developing normally.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy soybean growth requires fertile well-drained soil with pH 6.0–6.8, adequate sunlight, proper moisture availability, balanced nutrients, and temperatures between 20–30°C. Good field drainage and proper crop spacing support healthy development.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal leaf shape and size",
+      "Strong stem growth",
+      "Active flowering",
+      "Normal pod formation",
+      "Well-developed soybean seeds",
+      "No visible spots, lesions, yellowing, or wilting",
+      "No insect damage"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy soybean plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring routine crop management and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular inspection of leaves, stems, and pods.",
+        "Monitor the field weekly for early signs of disease or insect infestation."
+      ],
+      "cultural_control": [
+        "Maintain proper plant spacing to improve airflow.",
+        "Practice crop rotation with cereals such as rice, wheat, or maize.",
+        "Maintain proper irrigation without waterlogging.",
+        "Remove weeds that compete for nutrients and water.",
+        "Apply fertilizers based on soil test results.",
+        "Maintain adequate phosphorus and potassium levels for pod development.",
+        "Avoid excessive nitrogen fertilizer because soybean fixes its own nitrogen through root nodules.",
+        "Remove crop residue properly after harvest."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide, insecticide, or chemical treatment is required while the soybean plant remains healthy.",
+          "Preventive chemical applications should only be used when disease or pest risk becomes high."
+        ]
+      },
+      "biological_control": [
+        "Use Rhizobium inoculants on soybean seeds to improve nitrogen fixation.",
+        "Maintain beneficial soil microorganisms through organic matter application.",
+        "Apply Trichoderma-based biological products where suitable for root health.",
+        "Encourage natural predators such as lady beetles and parasitoid insects."
+      ],
+      "prevention": [
+        "Use certified disease-free soybean seeds.",
+        "Use high-quality seeds treated with appropriate biological seed treatments.",
+        "Inspect crops every 7–10 days during the growing season.",
+        "Maintain proper field drainage to prevent root diseases.",
+        "Avoid continuous soybean cultivation in the same field.",
+        "Monitor for soybean rust, leaf spots, and insect pests.",
+        "Maintain balanced soil fertility.",
+        "Remove infected plants immediately if disease appears.",
+        "Disinfect farming equipment before moving between fields."
+      ],
+      "estimated_recovery_time": "Not applicable. The soybean plant is healthy. Continue proper crop management practices to maintain high yield and prevent future disease problems."
+    }
+  },
+
+  {
+    "name": "Squash___Powdery_mildew",
+    "scientific_name": "Erysiphe cichoracearum",
+    "category": "Squash disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Powdery mildew is caused by fungal pathogens that grow on leaf surfaces and reduce photosynthesis by blocking sunlight absorption.",
+    "spread": "Spores spread through wind and infect nearby healthy leaves.",
+    "environment": "Warm temperatures, high humidity, poor airflow, and dense foliage encourage disease development.",
+    "symptoms": [
+      "White powder-like coating on leaves",
+      "Leaf curling",
+      "Yellowing leaves",
+      "Reduced fruit production",
+      "Premature leaf death"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small white fungal patches visible on leaves.",
+        "medium": "Large areas of leaves covered with fungal growth.",
+        "severe": "Plant growth severely reduced and leaves dying."
+      },
+      "immediate_action": [
+        "Remove heavily infected leaves.",
+        "Separate infected plants if possible."
+      ],
+      "cultural_control": [
+        "Improve airflow by increasing plant spacing.",
+        "Avoid excessive nitrogen fertilizer.",
+        "Water plants near the soil instead of wetting leaves."
+      ],
+      "chemical_control": {
+        "products": [
+          "Sulfur 80% WP fungicide",
+          "Potassium bicarbonate fungicide",
+          "Myclobutanil fungicide"
+        ],
+        "active_ingredients": [
+          "Sulfur",
+          "Potassium bicarbonate",
+          "Myclobutanil"
+        ],
+        "dosage": [
+          "Sulfur: 2-3 grams per liter of water.",
+          "Potassium bicarbonate: use according to manufacturer instructions."
+        ],
+        "application_method": [
+          "Spray both upper and lower leaf surfaces."
+        ],
+        "frequency": [
+          "Repeat every 7-14 days depending on disease pressure."
+        ],
+        "best_time": [
+          "Apply during early infection before heavy fungal growth."
+        ],
+        "expected_impact": [
+          "Can reduce fungal development by 70-90% when applied early."
+        ]
+      },
+      "biological_control": [
+        "Use Bacillus subtilis based biological fungicides."
+      ],
+      "prevention": [
+        "Grow resistant squash varieties.",
+        "Maintain good ventilation around plants."
+      ],
+      "estimated_recovery_time": "2-4 weeks"
+    }
+  },
+
+  {
+    "name": "Strawberry___Leaf_scorch",
+    "scientific_name": "Diplocarpon earlianum",
+    "category": "Strawberry disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Strawberry leaf scorch is caused by the fungus Diplocarpon earlianum. The pathogen infects strawberry leaves and reduces photosynthetic activity by damaging leaf tissues. The fungus survives in infected leaves and plant debris and produces spores that infect new foliage.",
+    "spread": "The disease spreads through rain splash, irrigation water, wind-driven moisture, infected plant debris, contaminated tools, and movement of infected leaves between plants.",
+    "environment": "Disease development is favored by warm temperatures (20–25°C), high humidity, frequent rainfall, prolonged leaf wetness, dense plant growth, and poor air circulation.",
+    "symptoms": [
+      "Small purple or reddish spots on leaves",
+      "Spots enlarge and merge into irregular brown patches",
+      "Leaf margins appear scorched or burned",
+      "Premature leaf death",
+      "Reduced photosynthesis",
+      "Weak plant growth",
+      "Lower fruit production"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small reddish-purple spots appear on a few leaves with minimal plant stress.",
+        "medium": "Multiple leaves show brown scorch-like patches and reduced growth.",
+        "severe": "Large areas of foliage are damaged, causing severe leaf loss and reduced fruit production."
+      },
+      "immediate_action": [
+        "Remove severely infected leaves immediately.",
+        "Destroy infected plant debris away from the strawberry field.",
+        "Avoid working with plants when foliage is wet.",
+        "Inspect nearby strawberry plants for early symptoms."
+      ],
+      "cultural_control": [
+        "Improve airflow by maintaining proper plant spacing.",
+        "Remove old infected leaves after harvest.",
+        "Avoid overhead irrigation that keeps leaves wet.",
+        "Use mulch to prevent soil splash carrying fungal spores.",
+        "Maintain balanced fertilizer application.",
+        "Remove weeds that increase humidity around plants.",
+        "Practice crop rotation where possible.",
+        "Avoid planting strawberries in poorly drained areas."
+      ],
+      "chemical_control": {
+        "products": [
+          "Captan 50 WP",
+          "Chlorothalonil-based fungicide",
+          "Myclobutanil-based fungicide",
+          "Azoxystrobin-based fungicide",
+          "Copper Hydroxide fungicide"
+        ],
+        "active_ingredients": [
+          "Captan",
+          "Chlorothalonil",
+          "Myclobutanil",
+          "Azoxystrobin",
+          "Copper Hydroxide"
+        ],
+        "dosage": [
+          "Captan 50 WP: 2 g/L water",
+          "Chlorothalonil: 1.5–2 g/L water",
+          "Myclobutanil: 0.5 g/L water",
+          "Azoxystrobin: follow registered product label instructions",
+          "Copper Hydroxide: 1.5–2 g/L water"
+        ],
+        "application_method": [
+          "Spray the complete strawberry canopy including upper and lower leaf surfaces.",
+          "Ensure full coverage of new leaves where infection commonly begins.",
+          "Apply using a fine mist sprayer for uniform distribution."
+        ],
+        "frequency": [
+          "Apply every 7–14 days during humid and rainy conditions.",
+          "Repeat after heavy rainfall if disease pressure remains high.",
+          "Rotate fungicide groups to prevent resistance."
+        ],
+        "best_time": [
+          "Apply early morning (6–9 AM) or late afternoon (4–6 PM).",
+          "Spray before extended wet periods when disease risk is high.",
+          "Avoid application during extreme heat."
+        ],
+        "expected_impact": [
+          "Stops development of new fungal infections within 5–10 days.",
+          "Protects newly emerging leaves.",
+          "Early treatment can reduce disease damage by 70–90%.",
+          "Existing scorched tissue will not recover, but healthy new growth can develop."
+        ]
+      },
+      "biological_control": [
+        "Apply Bacillus subtilis-based biological fungicides where available.",
+        "Use Trichoderma-based products to improve soil and root health.",
+        "Maintain beneficial microbial populations through compost application.",
+        "Encourage natural biological balance around the crop."
+      ],
+      "prevention": [
+        "Plant disease-free strawberry runners.",
+        "Remove infected leaves regularly.",
+        "Maintain good airflow between plants.",
+        "Avoid excessive nitrogen fertilizer.",
+        "Use drip irrigation instead of overhead watering.",
+        "Sanitize tools before moving between plants.",
+        "Monitor plants every 7–10 days during humid weather.",
+        "Remove old plant debris after harvest."
+      ],
+      "estimated_recovery_time": "2–4 weeks after early detection and proper treatment. Damaged leaves will not recover, but new healthy foliage can develop and restore plant productivity."
+    }
+  },
+
+  {
+    "name": "Strawberry___healthy",
+    "scientific_name": "Fragaria × ananassa",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The strawberry plant shows normal physiological growth without visible symptoms of fungal, bacterial, viral, or pest infection. Leaves, flowers, and fruits appear healthy with active growth and proper development.",
+    "spread": "Not applicable. No disease transmission occurs.",
+    "environment": "Healthy strawberry growth requires well-drained fertile soil with pH 5.5–6.5, full sunlight (6–8 hours daily), consistent moisture, good airflow, balanced nutrients, and temperatures between 15–25°C.",
+    "symptoms": [
+      "Healthy green leaves",
+      "Normal three-leaf structure",
+      "Strong plant growth",
+      "Healthy flowers",
+      "Normal fruit development",
+      "Bright red and well-formed berries",
+      "No visible leaf spots or lesions",
+      "No insect damage or abnormal growth"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Healthy strawberry plant with no visible disease symptoms.",
+        "medium": "Healthy plant requiring routine maintenance and monitoring.",
+        "severe": "No disease detected."
+      },
+      "immediate_action": [
+        "No disease treatment is required.",
+        "Continue regular monitoring of leaves, flowers, and fruits.",
+        "Inspect plants weekly for early signs of fungal diseases or pests."
+      ],
+      "cultural_control": [
+        "Maintain proper spacing between strawberry plants for airflow.",
+        "Use drip irrigation to keep leaves dry.",
+        "Remove old leaves and damaged fruit regularly.",
+        "Apply balanced fertilizer according to soil nutrient requirements.",
+        "Maintain soil moisture without creating waterlogged conditions.",
+        "Use mulch to reduce soil splash and maintain moisture.",
+        "Remove weeds that compete for nutrients and increase humidity.",
+        "Practice crop rotation where possible."
+      ],
+      "chemical_control": {
+        "products": [],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "No fungicide, pesticide, or chemical treatment is required while the strawberry plant remains healthy.",
+          "Preventive sprays should only be applied when disease pressure or pest risk becomes high."
+        ]
+      },
+      "biological_control": [
+        "Apply compost or organic matter to improve soil microbial activity.",
+        "Use beneficial microorganisms such as Trichoderma spp. to support root health.",
+        "Encourage beneficial insects such as lady beetles and predatory mites.",
+        "Maintain healthy soil biodiversity to improve plant resistance."
+      ],
+      "prevention": [
+        "Use certified disease-free strawberry runners.",
+        "Inspect plants every 7–10 days during the growing season.",
+        "Remove infected leaves and fruits immediately if symptoms appear.",
+        "Avoid excessive nitrogen fertilizer that creates weak growth.",
+        "Maintain good airflow around plants.",
+        "Disinfect gardening tools regularly.",
+        "Avoid overhead irrigation that keeps leaves wet.",
+        "Harvest ripe fruit regularly to prevent fungal growth.",
+        "Maintain proper field sanitation throughout the season."
+      ],
+      "estimated_recovery_time": "Not applicable. The strawberry plant is healthy. Continue proper cultivation practices to maintain strong growth and high fruit production."
+    }
+  },
+
+  {
+    "name": "Tomato___Bacterial_spot",
+    "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+    "category": "Tomato disease",
+    "pathogen_type": "Bacterial disease",
+    "cause": "Bacterial spot is caused by Xanthomonas bacteria that infect tomato leaves, stems, and fruits. The bacteria enter through natural openings and wounds.",
+    "spread": "The disease spreads through infected seeds, rain splash, irrigation water, contaminated tools, and infected plant material.",
+    "environment": "Warm temperatures (25-30°C), high humidity, frequent rainfall, and wet leaves increase infection risk.",
+    "symptoms": [
+      "Small dark water-soaked spots on leaves",
+      "Yellowing around leaf spots",
+      "Raised dark spots on fruits",
+      "Leaf drop",
+      "Reduced fruit quality"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few bacterial spots visible. Immediate protection recommended.",
+        "medium": "Multiple leaves and fruits affected.",
+        "severe": "Heavy infection causing defoliation and major yield loss."
+      },
+      "immediate_action": [
+        "Remove infected leaves and fruits.",
+        "Disinfect pruning tools using 10% bleach solution.",
+        "Avoid touching healthy plants after infected plants."
+      ],
+      "cultural_control": [
+        "Use certified disease-free seeds.",
+        "Avoid overhead irrigation.",
+        "Maintain proper spacing between plants.",
+        "Rotate crops every 2-3 seasons."
+      ],
+      "chemical_control": {
+        "products": [
+          "Copper hydroxide 77% WP",
+          "Copper oxychloride 50% WP",
+          "Copper sulfate based bactericides"
+        ],
+        "active_ingredients": [
+          "Copper hydroxide",
+          "Copper oxychloride",
+          "Copper sulfate"
+        ],
+        "dosage": [
+          "Copper hydroxide: 1.5-2 grams per liter water.",
+          "Copper oxychloride: 2-3 grams per liter water."
+        ],
+        "application_method": [
+          "Spray entire plant surface including leaf underside."
+        ],
+        "frequency": [
+          "Repeat every 7-10 days during wet weather."
+        ],
+        "best_time": [
+          "Apply before heavy rainfall periods."
+        ],
+        "expected_impact": [
+          "Reduces bacterial spread but cannot repair already damaged tissue."
+        ]
+      },
+      "biological_control": [
+        "Apply Bacillus subtilis based biological treatments."
+      ],
+      "prevention": [
+        "Use resistant varieties.",
+        "Maintain field sanitation.",
+        "Avoid working with wet plants."
+      ],
+      "estimated_recovery_time": "3-5 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Early_blight",
+    "scientific_name": "Alternaria solani",
+    "category": "Tomato disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Early blight is caused by Alternaria solani, a fungus that infects leaves, stems, and fruits. It survives in infected crop debris.",
+    "spread": "Spores spread through wind, rain splash, irrigation water, and infected plant material.",
+    "environment": "Warm temperatures (24-29°C), humidity, plant stress, and long leaf wetness periods increase disease development.",
+    "symptoms": [
+      "Circular brown lesions with ring patterns",
+      "Yellowing around infected areas",
+      "Lower leaves dying first",
+      "Stem lesions",
+      "Fruit rot near the stem"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small lesions detected on older leaves.",
+        "medium": "Disease spreading upward through plant.",
+        "severe": "Major leaf loss affecting fruit production."
+      },
+      "immediate_action": [
+        "Remove infected leaves.",
+        "Remove infected plant debris.",
+        "Avoid unnecessary leaf wetting."
+      ],
+      "cultural_control": [
+        "Practice crop rotation.",
+        "Maintain balanced nitrogen levels.",
+        "Provide adequate plant spacing.",
+        "Remove infected residues after harvest."
+      ],
+      "chemical_control": {
+        "products": [
+          "Mancozeb 75% WP",
+          "Chlorothalonil 75% WP",
+          "Azoxystrobin fungicide"
+        ],
+        "active_ingredients": [
+          "Mancozeb",
+          "Chlorothalonil",
+          "Azoxystrobin"
+        ],
+        "dosage": [
+          "Mancozeb: 2-2.5 grams per liter water.",
+          "Chlorothalonil: 2 grams per liter water."
+        ],
+        "application_method": [
+          "Apply as a foliar spray covering all leaves."
+        ],
+        "frequency": [
+          "Repeat every 7-14 days."
+        ],
+        "best_time": [
+          "Start treatment when first symptoms appear or before disease season."
+        ],
+        "expected_impact": [
+          "Proper control can reduce yield loss by 60-80%."
+        ]
+      },
+      "biological_control": [
+        "Use Trichoderma-based products."
+      ],
+      "prevention": [
+        "Use disease-free seeds.",
+        "Maintain crop hygiene.",
+        "Avoid planting tomatoes repeatedly in the same area."
+      ],
+      "estimated_recovery_time": "3-4 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Late_blight",
+    "scientific_name": "Phytophthora infestans",
+    "category": "Tomato disease",
+    "pathogen_type": "Oomycete pathogen (water mold)",
+    "cause": "Late blight is caused by Phytophthora infestans, a destructive pathogen that attacks tomato leaves, stems, and fruits. Under favorable conditions it can destroy entire crops rapidly.",
+    "spread": "The pathogen spreads through airborne spores, rain splash, infected plant material, contaminated tools, and infected seedlings.",
+    "environment": "Cool temperatures (10-20°C), high humidity, rainfall, and prolonged leaf wetness strongly favor disease development.",
+    "symptoms": [
+      "Dark water-soaked patches on leaves",
+      "White fungal-like growth on leaf undersides",
+      "Rapid leaf death",
+      "Brown greasy lesions on fruits",
+      "Complete plant collapse in severe cases"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few infected spots detected. Immediate fungicide protection recommended.",
+        "medium": "Multiple leaves infected and disease spreading.",
+        "severe": "Plant destruction occurring. Remove infected plants."
+      },
+      "immediate_action": [
+        "Remove infected plants immediately.",
+        "Destroy infected fruits and plant debris.",
+        "Avoid entering wet infected fields."
+      ],
+      "cultural_control": [
+        "Maintain proper spacing for airflow.",
+        "Avoid overhead irrigation.",
+        "Remove volunteer tomato plants.",
+        "Practice crop rotation."
+      ],
+      "chemical_control": {
+        "products": [
+          "Metalaxyl + Mancozeb 72% WP",
+          "Copper oxychloride 50% WP",
+          "Chlorothalonil 75% WP"
+        ],
+        "active_ingredients": [
+          "Metalaxyl",
+          "Mancozeb",
+          "Copper compounds",
+          "Chlorothalonil"
+        ],
+        "dosage": [
+          "Metalaxyl + Mancozeb: 2 grams per liter water.",
+          "Copper oxychloride: 2-3 grams per liter water."
+        ],
+        "application_method": [
+          "Spray complete plant coverage including lower leaves."
+        ],
+        "frequency": [
+          "Repeat every 7 days during high-risk weather."
+        ],
+        "best_time": [
+          "Apply before infection during cool rainy periods."
+        ],
+        "expected_impact": [
+          "Early protection can reduce crop loss by 70-90%."
+        ]
+      },
+      "biological_control": [
+        "Use approved Trichoderma and Bacillus-based products."
+      ],
+      "prevention": [
+        "Plant resistant varieties.",
+        "Monitor humidity and rainfall conditions.",
+        "Use certified disease-free seedlings."
+      ],
+      "estimated_recovery_time": "3-5 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Leaf_Mold",
+    "scientific_name": "Passalora fulva",
+    "category": "Tomato disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Tomato leaf mold is caused by Passalora fulva, a fungus that mainly affects tomatoes grown under high humidity conditions.",
+    "spread": "Spores spread through air movement, contaminated tools, water droplets, and infected plant material.",
+    "environment": "High humidity above 85%, poor ventilation, and warm temperatures increase disease risk.",
+    "symptoms": [
+      "Yellow patches on upper leaf surfaces",
+      "Olive-green mold on lower leaf surfaces",
+      "Leaf curling",
+      "Reduced plant growth",
+      "Lower fruit production"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small yellow patches appearing.",
+        "medium": "Large portions of leaves affected.",
+        "severe": "Major leaf loss affecting yield."
+      },
+      "immediate_action": [
+        "Remove infected leaves.",
+        "Reduce greenhouse humidity."
+      ],
+      "cultural_control": [
+        "Improve ventilation.",
+        "Increase plant spacing.",
+        "Avoid wetting leaves during irrigation."
+      ],
+      "chemical_control": {
+        "products": [
+          "Chlorothalonil 75% WP",
+          "Mancozeb 75% WP",
+          "Copper fungicides"
+        ],
+        "active_ingredients": [
+          "Chlorothalonil",
+          "Mancozeb",
+          "Copper compounds"
+        ],
+        "dosage": [
+          "Mancozeb: 2 grams per liter water.",
+          "Copper fungicides: 2-3 grams per liter water."
+        ],
+        "application_method": [
+          "Spray both upper and lower leaf surfaces."
+        ],
+        "frequency": [
+          "Repeat every 7-14 days."
+        ],
+        "best_time": [
+          "Apply at first disease signs."
+        ],
+        "expected_impact": [
+          "Can significantly reduce fungal spread when applied early."
+        ]
+      },
+      "biological_control": [
+        "Use Bacillus subtilis based biofungicides."
+      ],
+      "prevention": [
+        "Maintain low humidity.",
+        "Use resistant tomato varieties."
+      ],
+      "estimated_recovery_time": "2-4 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Septoria_leaf_spot",
+    "scientific_name": "Septoria lycopersici",
+    "category": "Tomato disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Septoria leaf spot is caused by Septoria lycopersici, a fungus that mainly attacks tomato leaves and reduces photosynthesis.",
+    "spread": "Spores spread through rain splash, irrigation water, infected debris, and contaminated equipment.",
+    "environment": "Warm humid weather and long periods of leaf wetness increase infection.",
+    "symptoms": [
+      "Small circular spots with dark borders",
+      "Black fungal structures inside spots",
+      "Yellowing leaves",
+      "Premature leaf drop"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few spots on lower leaves.",
+        "medium": "Disease moving upward.",
+        "severe": "Severe defoliation."
+      },
+      "immediate_action": [
+        "Remove infected leaves.",
+        "Dispose of infected plant material."
+      ],
+      "cultural_control": [
+        "Rotate crops.",
+        "Avoid overhead irrigation.",
+        "Maintain plant spacing."
+      ],
+      "chemical_control": {
+        "products": [
+          "Chlorothalonil 75% WP",
+          "Mancozeb 75% WP"
+        ],
+        "active_ingredients": [
+          "Chlorothalonil",
+          "Mancozeb"
+        ],
+        "dosage": [
+          "Mancozeb: 2 grams per liter water.",
+          "Chlorothalonil: follow label recommendation."
+        ],
+        "application_method": [
+          "Apply as protective leaf spray."
+        ],
+        "frequency": [
+          "Repeat every 7-10 days."
+        ],
+        "best_time": [
+          "Start when first symptoms appear."
+        ],
+        "expected_impact": [
+          "Can prevent further spread and protect new leaves."
+        ]
+      },
+      "biological_control": [
+        "Use beneficial Bacillus species."
+      ],
+      "prevention": [
+        "Remove crop debris.",
+        "Use healthy seedlings."
+      ],
+      "estimated_recovery_time": "3-4 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+    "scientific_name": "Tetranychus urticae",
+    "category": "Tomato pest infestation",
+    "pathogen_type": "Arachnid pest (Spider mite)",
+    "cause": "Two-spotted spider mites are tiny plant-feeding pests that damage tomato plants by piercing leaf cells and sucking plant fluids. Heavy feeding reduces photosynthesis and weakens plant growth.",
+    "spread": "Spider mites spread through wind, infected plant material, tools, clothing, and movement between plants.",
+    "environment": "Hot temperatures, low humidity, drought stress, and dusty conditions increase infestation.",
+    "symptoms": [
+      "Yellow speckling on leaves",
+      "Bronzing of leaf surfaces",
+      "Fine webbing on leaves and stems",
+      "Leaf drying and dropping",
+      "Reduced fruit production"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few mites detected. Immediate control prevents population growth.",
+        "medium": "Visible webbing and leaf damage present.",
+        "severe": "Large infestation causing severe plant stress."
+      },
+      "immediate_action": [
+        "Remove heavily damaged leaves.",
+        "Wash plants with water spray to reduce mite numbers.",
+        "Separate heavily infected plants."
+      ],
+      "cultural_control": [
+        "Maintain proper irrigation.",
+        "Remove weeds that host mites.",
+        "Avoid excessive dust around plants."
+      ],
+      "chemical_control": {
+        "products": [
+          "Abamectin based miticide",
+          "Spiromesifen acaricide",
+          "Bifenazate miticide"
+        ],
+        "active_ingredients": [
+          "Abamectin",
+          "Spiromesifen",
+          "Bifenazate"
+        ],
+        "dosage": [
+          "Abamectin: follow registered label dosage.",
+          "Apply according to manufacturer recommendations."
+        ],
+        "application_method": [
+          "Spray mainly on the underside of leaves where mites live."
+        ],
+        "frequency": [
+          "Repeat after 7-10 days if infestation continues."
+        ],
+        "best_time": [
+          "Apply during early morning or evening."
+        ],
+        "expected_impact": [
+          "Can reduce mite population by 80-95% when correctly applied."
+        ]
+      },
+      "biological_control": [
+        "Introduce predatory mites such as Phytoseiulus persimilis.",
+        "Encourage natural predators like lady beetles."
+      ],
+      "prevention": [
+        "Inspect leaf undersides regularly.",
+        "Maintain healthy plant growth."
+      ],
+      "estimated_recovery_time": "2-4 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Target_Spot",
+    "scientific_name": "Corynespora cassiicola",
+    "category": "Tomato disease",
+    "pathogen_type": "Fungal disease",
+    "cause": "Target spot is caused by Corynespora cassiicola, a fungus affecting tomato leaves, stems, and fruits.",
+    "spread": "The fungus spreads through airborne spores, rain splash, irrigation water, and infected crop residues.",
+    "environment": "Warm humid conditions, dense foliage, and long leaf wetness periods increase infection.",
+    "symptoms": [
+      "Circular target-like brown lesions",
+      "Leaf yellowing",
+      "Premature leaf drop",
+      "Dark fruit spots",
+      "Reduced fruit quality"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Small target-shaped lesions detected.",
+        "medium": "Multiple leaves affected.",
+        "severe": "Heavy defoliation and fruit damage."
+      },
+      "immediate_action": [
+        "Remove infected leaves.",
+        "Destroy infected plant debris."
+      ],
+      "cultural_control": [
+        "Improve airflow through pruning.",
+        "Avoid excessive irrigation.",
+        "Practice crop rotation."
+      ],
+      "chemical_control": {
+        "products": [
+          "Chlorothalonil 75% WP",
+          "Azoxystrobin fungicide",
+          "Mancozeb 75% WP"
+        ],
+        "active_ingredients": [
+          "Chlorothalonil",
+          "Azoxystrobin",
+          "Mancozeb"
+        ],
+        "dosage": [
+          "Mancozeb: 2 grams per liter water.",
+          "Chlorothalonil: follow label instructions."
+        ],
+        "application_method": [
+          "Apply complete leaf coverage."
+        ],
+        "frequency": [
+          "Repeat every 7-14 days."
+        ],
+        "best_time": [
+          "Apply at early disease stages."
+        ],
+        "expected_impact": [
+          "Reduces fungal spread and protects new growth."
+        ]
+      },
+      "biological_control": [
+        "Use Trichoderma based biological products."
+      ],
+      "prevention": [
+        "Maintain field sanitation.",
+        "Use resistant varieties."
+      ],
+      "estimated_recovery_time": "3-5 weeks"
+    }
+  },
+
+  {
+    "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "scientific_name": "Tomato yellow leaf curl virus (TYLCV)",
+    "category": "Tomato viral disease",
+    "pathogen_type": "Virus transmitted by whiteflies",
+    "cause": "TYLCV is a viral disease that disrupts tomato growth and is mainly transmitted by Bemisia tabaci whiteflies.",
+    "spread": "The virus spreads through infected whiteflies feeding on plants and through infected seedlings.",
+    "environment": "Warm climates with high whitefly populations increase disease occurrence.",
+    "symptoms": [
+      "Upward curling leaves",
+      "Yellow leaf edges",
+      "Small leaves",
+      "Stunted growth",
+      "Poor fruit development"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Few leaves showing curling symptoms.",
+        "medium": "Plant growth becoming restricted.",
+        "severe": "Severe stunting and no economic yield."
+      },
+      "immediate_action": [
+        "Remove severely infected plants.",
+        "Control whitefly population immediately."
+      ],
+      "cultural_control": [
+        "Use insect-proof nets.",
+        "Remove weed hosts.",
+        "Avoid planting near infected fields."
+      ],
+      "chemical_control": {
+        "products": [
+          "Imidacloprid insecticide",
+          "Acetamiprid insecticide"
+        ],
+        "active_ingredients": [
+          "Imidacloprid",
+          "Acetamiprid"
+        ],
+        "dosage": [
+          "Follow registered agricultural label dosage."
+        ],
+        "application_method": [
+          "Spray plant foliage targeting whiteflies."
+        ],
+        "frequency": [
+          "Rotate insecticide groups to prevent resistance."
+        ],
+        "best_time": [
+          "Control whiteflies before virus transmission."
+        ],
+        "expected_impact": [
+          "Reduces virus spread but cannot cure infected plants."
+        ]
+      },
+      "biological_control": [
+        "Encourage parasitoid wasps and natural predators."
+      ],
+      "prevention": [
+        "Use TYLCV-resistant varieties.",
+        "Use certified virus-free seedlings."
+      ],
+      "estimated_recovery_time": "Infected plants usually do not recover"
+    }
+  },
+
+  {
+    "name": "Tomato___Tomato_mosaic_virus",
+    "scientific_name": "Tomato mosaic virus (ToMV)",
+    "category": "Tomato viral disease",
+    "pathogen_type": "Virus",
+    "cause": "Tomato mosaic virus affects plant cells and reduces photosynthesis, causing abnormal growth.",
+    "spread": "The virus spreads mechanically through contaminated hands, tools, seeds, and plant contact.",
+    "environment": "Poor sanitation and intensive cultivation increase disease spread.",
+    "symptoms": [
+      "Light and dark green mosaic patterns",
+      "Leaf curling",
+      "Distorted leaves",
+      "Uneven fruit ripening",
+      "Reduced fruit size"
+    ],
+    "treatment": {
+      "severity_levels": {
+        "early": "Mosaic symptoms appear on limited leaves.",
+        "medium": "Multiple leaves affected.",
+        "severe": "Major growth reduction."
+      },
+      "immediate_action": [
+        "Remove infected plants.",
+        "Disinfect tools and hands."
+      ],
+      "cultural_control": [
+        "Use virus-free seeds.",
+        "Avoid handling plants unnecessarily.",
+        "Remove infected residues."
+      ],
+      "chemical_control": {
+        "products": [
+          "No chemical cure available"
+        ],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [
+          "Management focuses on preventing spread."
+        ],
+        "frequency": [],
+        "best_time": [
+          "Prevention before infection is essential."
+        ],
+        "expected_impact": [
+          "Cannot cure infected plants."
+        ]
+      },
+      "biological_control": [
+        "Maintain healthy soil microbial activity."
+      ],
+      "prevention": [
+        "Plant resistant varieties.",
+        "Maintain strict sanitation."
+      ],
+      "estimated_recovery_time": "Infected plants usually remain infected"
+    }
+  },
+
+  {
+    "name": "Tomato___healthy",
+    "scientific_name": "Not applicable",
+    "category": "Healthy plant",
+    "pathogen_type": "None",
+    "cause": "No disease detected. The tomato plant appears healthy with normal growth.",
+    "spread": "No disease transmission occurs.",
+    "environment": "Healthy tomatoes require balanced nutrients, sunlight, proper irrigation, and suitable soil conditions.",
+    "symptoms": [
+      "Green healthy leaves",
+      "Strong plant growth",
+      "Normal flowering",
+      "Normal fruit development"
+    ],
+    "treatment": {
+      "immediate_action": [
+        "Continue monitoring plant health."
+      ],
+      "cultural_control": [
+        "Maintain proper irrigation.",
+        "Apply balanced fertilizer.",
+        "Remove damaged plant parts."
+      ],
+      "chemical_control": {
+        "products": [
+          "No chemical treatment required"
+        ],
+        "active_ingredients": [],
+        "dosage": [],
+        "application_method": [],
+        "frequency": [],
+        "best_time": [],
+        "expected_impact": [
+          "Healthy plants maintain maximum production potential."
+        ]
+      },
+      "biological_control": [
+        "Maintain beneficial soil microorganisms."
+      ],
+      "prevention": [
+        "Regularly inspect plants.",
+        "Follow good agricultural practices."
+      ],
+      "estimated_recovery_time": "Not applicable"
+    }
+  }
+]

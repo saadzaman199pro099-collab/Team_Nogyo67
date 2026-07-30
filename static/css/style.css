@@ -1,0 +1,876 @@
+/* ==================================
+   GLOBAL SETTINGS
+================================== */
+
+
+*{
+
+    box-sizing:border-box;
+
+}
+
+
+body{
+
+    margin:0;
+
+    padding:0;
+
+    overflow-x:hidden;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+
+/* ==================================
+   BACKGROUND CAROUSEL
+================================== */
+
+
+.carousel-item{
+
+    width:100vw;
+
+    min-height:95vh;
+
+    color:white;
+
+    background-size:cover;
+
+    background-position:center;
+
+    animation:changeFrame 20s linear infinite;
+
+}
+
+
+
+@keyframes changeFrame{
+
+
+0%{
+
+background-image:url('../images/crop_background1.jpg');
+
+}
+
+
+25%{
+
+background-image:url('../images/crop_background2.jpg');
+
+}
+
+
+50%{
+
+background-image:url('../images/crop_background3.jpg');
+
+}
+
+
+75%{
+
+background-image:url('../images/crop_background4.jpg');
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   MAIN CONTENT WRAPPER
+================================== */
+
+
+.carousel-text-wrapper{
+
+
+    width:100%;
+
+    min-height:100%;
+
+    padding-bottom:60px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    backdrop-filter:blur(3px);
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   TITLE
+================================== */
+
+
+.carousel-text-title{
+
+
+    margin-top:50px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+    font-size:clamp(35px,5vw,72px);
+
+    text-shadow:4px 4px 5px #333;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   UPLOAD FORM
+================================== */
+
+
+.form-box{
+
+
+    width:100%;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    margin-top:30px;
+
+
+}
+
+
+
+
+form{
+
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(10px);
+
+    padding:30px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+
+}
+
+
+
+form h1{
+
+
+    font-weight:bold;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+.input-box{
+
+
+    margin:15px;
+
+
+}
+
+
+
+
+input[type="file"]{
+
+
+    background:white;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    max-width:100%;
+
+
+}
+
+
+
+
+
+button{
+
+
+    transition:0.3s;
+
+
+}
+
+
+
+button:hover{
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   LOADING
+================================== */
+
+
+.loading-box{
+
+
+    display:none;
+
+    margin-top:20px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    animation:pulse 1.5s infinite;
+
+
+}
+
+
+
+
+@keyframes pulse{
+
+
+50%{
+
+opacity:0.5;
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   LANGUAGE BUTTONS
+================================== */
+
+
+.language-box{
+
+
+    text-align:center;
+
+    margin:25px;
+
+
+}
+
+
+
+
+
+.language-box button{
+
+
+    background:#198754;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 30px;
+
+    margin:5px;
+
+    border-radius:25px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   DISEASE RESULT CARD
+================================== */
+
+
+.result-card{
+
+
+    width:90%;
+
+    max-width:950px;
+
+    margin:35px auto;
+
+    padding:25px;
+
+    background:white;
+
+    color:black;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.35);
+
+    transition:0.4s;
+
+
+}
+
+
+
+
+
+.result-card:hover{
+
+
+    transform:translateY(-6px);
+
+
+}
+
+
+
+
+.card-header-custom{
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+
+}
+
+
+
+
+
+.card-header-custom h2{
+
+
+    color:#198754;
+
+    font-size:30px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+.card-details{
+
+
+    max-height:0;
+
+    overflow:hidden;
+
+    transition:max-height 0.7s ease;
+
+
+}
+
+
+
+
+
+.result-card.active .card-details{
+
+
+    max-height:3500px;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   RESULT IMAGE
+================================== */
+
+
+.result-image{
+
+
+    width:100%;
+
+    max-height:450px;
+
+    object-fit:contain;
+
+    border-radius:20px;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   TEXT SCROLL AREA
+================================== */
+
+
+.card-scroll{
+
+
+    max-height:750px;
+
+    overflow-y:auto;
+
+    padding-right:15px;
+
+
+}
+
+
+
+.card-scroll::-webkit-scrollbar{
+
+
+    width:8px;
+
+
+}
+
+
+
+.card-scroll::-webkit-scrollbar-thumb{
+
+
+    background:#198754;
+
+    border-radius:10px;
+
+
+}
+
+
+
+
+.card-scroll h4{
+
+
+    color:#198754;
+
+    margin-top:25px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+.card-scroll h5{
+
+
+    margin-top:18px;
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+.card-scroll p,
+.card-scroll li{
+
+
+    font-size:17px;
+
+    line-height:1.6;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   LANGUAGE CONTENT
+================================== */
+
+
+.bangla{
+
+
+    display:none;
+
+    line-height:1.7;
+
+    font-size:17px;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   ABOUT SECTIONS
+================================== */
+
+
+.section-box{
+
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    background:white;
+
+    color:black;
+
+    padding:35px;
+
+    border-radius:25px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.25);
+
+
+}
+
+
+
+
+
+.section-box h2{
+
+
+    color:#198754;
+
+    font-weight:bold;
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+
+.section-box p,
+.section-box li{
+
+
+    font-size:18px;
+
+    line-height:1.7;
+
+
+}
+
+
+
+
+
+
+
+
+/* ==================================
+   NŌGYŌ ROBOT SECTION
+================================== */
+
+
+.nogyo-about{
+
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:40px;
+
+
+}
+
+
+
+
+
+.nogyo-robot{
+
+
+    width:40%;
+
+    display:flex;
+
+    justify-content:center;
+
+
+}
+
+
+
+
+
+.nogyo-robot img{
+
+
+    width:100%;
+
+    max-width:400px;
+
+    border-radius:25px;
+
+
+}
+
+
+
+
+
+.nogyo-description{
+
+
+    width:60%;
+
+
+}
+
+
+
+
+
+.nogyo-description h2{
+
+
+    color:#198754;
+
+    font-weight:bold;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   FOOTER
+================================== */
+
+
+footer{
+
+
+    width:100%;
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:50px;
+
+
+}
+
+
+
+
+
+
+
+/* ==================================
+   MOBILE RESPONSIVE
+================================== */
+
+
+@media(max-width:768px){
+
+
+
+.carousel-text-title{
+
+
+    font-size:40px;
+
+
+}
+
+
+
+
+form{
+
+
+    width:90%;
+
+
+}
+
+
+
+
+
+.result-card{
+
+
+    width:95%;
+
+    padding:20px;
+
+
+}
+
+
+
+
+.card-header-custom h2{
+
+
+    font-size:22px;
+
+
+}
+
+
+
+
+.result-image{
+
+
+    max-height:300px;
+
+
+}
+
+
+
+
+.section-box{
+
+
+    width:95%;
+
+
+}
+
+
+
+
+.nogyo-about{
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+
+
+.nogyo-robot{
+
+
+    width:100%;
+
+
+}
+
+
+
+
+.nogyo-description{
+
+
+    width:100%;
+
+
+}
+
+
+
+}

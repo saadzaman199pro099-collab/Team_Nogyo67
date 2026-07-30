@@ -1,0 +1,1407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Plants Disease Detection</title>
+
+
+<link rel="icon"
+href="{{ url_for('static', filename='images/logo.svg') }}"
+type="image/svg+xml">
+
+
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+
+
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary"
+data-bs-theme="dark">
+
+
+<div class="container-fluid">
+
+
+<a class="navbar-brand" href="#">
+
+
+<img src="{{ url_for('static', filename='images/logo.svg') }}"
+alt="Nōgyō Logo"
+width="30"
+height="24"
+class="d-inline-block align-text-top">
+Nōgyō : An AI Based Smart Agriculture Robot
+
+
+</a>
+
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+
+<!-- HERO SECTION -->
+
+
+<div id="carouselExampleSlidesOnly"
+class="carousel slide"
+data-bs-ride="carousel">
+
+
+
+<div class="carousel-inner">
+
+
+
+<div class="carousel-item active">
+
+
+
+<div class="carousel-text-wrapper">
+
+
+
+
+
+<h1 class="carousel-text-title">
+
+Plants Disease Detection
+
+</h1>
+
+
+
+
+
+
+
+
+<div class="form-box">
+
+
+
+
+
+
+
+<form action="/upload/"
+method="POST"
+enctype="multipart/form-data">
+
+
+
+
+
+<h1>
+Upload Plant Image
+
+</h1>
+
+
+
+
+
+
+
+<div class="input-box">
+
+
+<input type="file"
+name="img"
+accept="image/png,image/jpeg"
+required>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="input-box">
+
+
+<button type="submit"
+class="btn btn-success"
+onclick="showLoading()">
+
+
+Analyze Plant
+
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div id="loading"
+class="loading-box">
+
+
+🌱 Nōgyō AI is analyzing your plant...
+
+
+</div>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+
+{% if error %}
+
+
+<div class="alert alert-danger">
+
+{{ error }}
+
+</div>
+
+
+{% endif %}
+
+
+
+
+
+
+
+
+
+{% if result %}
+
+
+
+
+
+<!-- LANGUAGE BUTTONS -->
+
+
+<div class="language-box">
+
+
+<button onclick="changeLanguage('en')">
+
+English
+
+</button>
+
+
+
+<button onclick="changeLanguage('bn')">
+
+বাংলা
+
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- DISEASE RESULT CARD -->
+
+
+<div class="result-card"
+onclick="toggleCard(this)">
+
+
+
+
+
+
+<div class="card-header-custom">
+
+
+
+<h2>
+
+{{ prediction['name'] }}
+
+</h2>
+
+
+
+<span>
+
+▼
+
+</span>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card-details">
+
+
+
+<div class="card-scroll">
+
+
+
+
+
+
+<img src="{{ imagepath }}"
+alt="Uploaded Plant Image"
+class="result-image">
+
+
+
+
+
+
+<h4>
+
+Confidence
+
+</h4>
+
+
+<p>
+
+{% if confidence %}
+
+{{ confidence }}%
+
+{% else %}
+
+N/A
+
+{% endif %}
+
+</p>
+
+
+
+
+
+
+
+<!-- ENGLISH CONTENT -->
+
+
+<div class="english">
+
+
+
+
+
+
+<h4>
+
+Scientific Name
+
+</h4>
+
+
+<p>
+
+{{ prediction['scientific_name'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+Pathogen Type
+
+</h4>
+
+
+<p>
+
+{{ prediction['pathogen_type'] }}
+
+</p>
+
+
+
+
+
+
+
+<h4>
+
+Cause
+
+</h4>
+
+
+<p>
+
+{{ prediction['cause'] }}
+
+</p>
+
+
+
+
+
+
+
+<h4>
+
+Spread Mechanism
+
+</h4>
+
+
+<p>
+
+{{ prediction['spread'] }}
+
+</p>
+
+
+
+
+
+
+
+<h4>
+
+Favorable Conditions
+
+</h4>
+
+
+<p>
+
+{{ prediction['environment'] }}
+
+</p>
+
+
+
+
+
+
+
+<h4>
+
+Symptoms
+
+</h4>
+
+
+<ul>
+
+
+{% for symptom in prediction['symptoms'] %}
+
+
+<li>
+
+{{ symptom }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+</ul>
+
+
+
+
+
+
+<h4>
+
+Treatment
+
+</h4>
+
+<h5>
+    Disease Severity Levels
+</h5>
+
+<div class="treatment-box">
+
+    <p>
+        <strong>Early:</strong>
+        {{prediction['treatment']['severity_levels']['early']}}
+    </p>
+
+    <p>
+        <strong>Medium:</strong>
+        {{prediction['treatment']['severity_levels']['medium']}}
+    </p>
+
+    <p>
+        <strong>Severe:</strong>
+        {{prediction['treatment']['severity_levels']['severe']}}
+    </p>
+
+</div>
+
+
+
+
+<h5>
+
+Immediate Action
+
+</h5>
+
+
+<ul>
+
+
+{% for item in prediction['treatment']['immediate_action'] %}
+
+
+<li>
+
+{{ item }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+
+
+
+
+
+
+
+
+<h5>
+
+Cultural Control
+
+</h5>
+
+
+<ul>
+
+
+{% for item in prediction['treatment']['cultural_control'] %}
+
+
+<li>
+
+{{ item }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+
+
+
+
+
+
+
+
+<h5>
+    Chemical Control
+</h5>
+
+{% if prediction['treatment']['chemical_control']['products'] %}
+
+<h6>Recommended Products</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['products'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['active_ingredients'] %}
+
+<h6>Active Ingredients</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['active_ingredients'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['dosage'] %}
+
+<h6>Dosage</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['dosage'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['application_method'] %}
+
+<h6>Application Method</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['application_method'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['frequency'] %}
+
+<h6>Frequency</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['frequency'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['best_time'] %}
+
+<h6>Best Time To Apply</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['best_time'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+{% if prediction['treatment']['chemical_control']['expected_impact'] %}
+
+<h6>Expected Impact</h6>
+
+<ul>
+{% for item in prediction['treatment']['chemical_control']['expected_impact'] %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endif %}
+
+
+
+
+
+
+<h5>
+
+Biological Control
+
+</h5>
+
+
+<ul>
+
+
+{% for item in prediction['treatment']['biological_control'] %}
+
+
+<li>
+
+{{ item }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+
+
+
+
+
+
+
+
+<h5>
+
+Prevention
+
+</h5>
+
+
+<ul>
+
+
+{% for item in prediction['treatment']['prevention'] %}
+
+
+<li>
+
+{{ item }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+
+<h5>
+    Recovery Time
+</h5>
+
+<p>
+    {{prediction['treatment']['estimated_recovery_time']}}
+</p>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- BANGLA CONTENT -->
+
+
+<div class="bangla">
+
+
+
+
+
+
+<h4>
+
+রোগের নাম
+
+</h4>
+
+
+<p>
+
+{{ prediction['name'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+বৈজ্ঞানিক নাম
+
+</h4>
+
+
+<p>
+
+{{ prediction['scientific_name'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+রোগের ধরন
+
+</h4>
+
+
+<p>
+
+{{ prediction['pathogen_type'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+কারণ
+
+</h4>
+
+
+<p>
+
+{{ prediction['cause'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+ছড়ানোর পদ্ধতি
+
+</h4>
+
+
+<p>
+
+{{ prediction['spread'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+উপযুক্ত পরিবেশ
+
+</h4>
+
+
+<p>
+
+{{ prediction['environment'] }}
+
+</p>
+
+
+
+
+
+
+<h4>
+
+লক্ষণ
+
+</h4>
+
+
+<ul>
+
+
+{% for symptom in prediction['symptoms'] %}
+
+
+<li>
+
+{{ symptom }}
+
+</li>
+
+
+{% endfor %}
+
+
+</ul>
+
+
+
+
+
+
+
+<h4>
+
+চিকিৎসা ও প্রতিরোধ
+
+</h4>
+
+
+
+<p>
+
+আক্রান্ত অংশ দ্রুত অপসারণ করুন, সঠিক কৃষি ব্যবস্থাপনা অনুসরণ করুন এবং প্রয়োজন অনুযায়ী চিকিৎসা ব্যবস্থা গ্রহণ করুন।
+
+</p>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<br>
+
+
+
+
+
+<a href="/"
+class="btn btn-primary">
+
+
+Check Another Plant
+
+
+</a>
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+{% endif %}
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ABOUT NŌGYŌ ROBOT SECTION -->
+
+
+<div class="section-box nogyo-about">
+
+
+
+
+
+<div class="nogyo-robot">
+
+
+
+<img src="{{ url_for('static', filename='images/Nogyorobot.jpeg') }}"
+alt="Nōgyō Smart Farming Robot">
+
+
+</div>
+
+
+
+
+
+
+<div class="nogyo-description">
+
+
+
+<h2>
+
+About Nōgyō
+
+</h2>
+
+
+
+
+
+<p>
+
+Nōgyō is an AI-powered smart farming robot engineered for precision agriculture. Driven by an ESP32 micro-controller with GPS tracking, it analyzes soil nutrients via RS485 sensors while using machine learning to detect plant diseases and trigger automated spraying for targeted crop care.
+
+</p>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ABOUT NŌGYŌ AI SECTION -->
+
+
+
+<div class="section-box">
+
+
+
+<h2>
+
+About Nōgyō AI
+
+</h2>
+
+
+
+
+
+<p>
+
+Nōgyō AI is an AI-powered plant disease recognition system designed to help farmers and researchers identify plant diseases quickly using image-based deep learning technology.
+
+</p>
+
+
+
+
+
+<p>
+
+By combining computer vision, machine learning, and agricultural intelligence, Nōgyō AI provides fast disease identification and supports smarter crop management.
+
+</p>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- SUPPORTED CROPS SECTION -->
+
+
+<div class="section-box">
+
+
+
+<h2>
+
+Supported Crops
+
+</h2>
+
+
+
+
+
+<ul>
+
+
+<li>
+
+Apple
+
+</li>
+
+
+
+
+
+
+
+
+<li>
+
+Corn
+
+</li>
+
+
+<li>
+
+Grape
+
+</li>
+
+
+<li>
+
+Orange
+
+</li>
+
+
+
+
+
+<li>
+
+Pepper
+
+</li>
+
+
+<li>
+
+Potato
+
+</li>
+
+
+
+
+
+
+
+
+<li>
+
+Squash(Sweet Potato)
+
+</li>
+
+
+<li>
+
+Strawberry
+
+</li>
+
+
+<li>
+
+Tomato
+
+</li>
+
+
+</ul>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer>
+
+
+
+<p>
+
+© 2026 Nōgyō AI
+
+</p>
+
+
+
+
+
+<p>
+
+Smart farming powered by artificial intelligence
+
+</p>
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}">
+
+</script>
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+function toggleCard(card){
+
+
+card.classList.toggle("active");
+
+
+}
+
+
+
+
+
+
+
+
+
+function changeLanguage(language){
+
+
+
+let english = document.querySelectorAll(".english");
+
+
+let bangla = document.querySelectorAll(".bangla");
+
+
+
+
+
+
+if(language === "en"){
+
+
+
+english.forEach(function(item){
+
+
+item.style.display = "block";
+
+
+});
+
+
+
+
+
+bangla.forEach(function(item){
+
+
+item.style.display = "none";
+
+
+});
+
+
+
+}
+
+
+
+
+
+
+
+if(language === "bn"){
+
+
+
+english.forEach(function(item){
+
+
+item.style.display = "none";
+
+
+});
+
+
+
+
+
+bangla.forEach(function(item){
+
+
+item.style.display = "block";
+
+
+});
+
+
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+function showLoading(){
+
+
+
+let loading = document.getElementById("loading");
+
+
+
+if(loading){
+
+
+loading.style.display = "block";
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+</html>
